@@ -1,0 +1,742 @@
+[
+  {
+    "kategori_id": "cvt",
+    "id": "cvt-g612",
+    "label_awam": "Motor terasa berat / tarikan kurang responsif saat digas",
+    "gejala_anchor": [
+      "G612"
+    ],
+    "rule_ids_terkait": [
+      "K01",
+      "K18",
+      "K36",
+      "K41",
+      "K48",
+      "K53",
+      "K65",
+      "K77",
+      "K79",
+      "K84",
+      "K86",
+      "K92",
+      "K95"
+    ]
+  },
+  {
+    "kategori_id": "cvt",
+    "id": "cvt-g639",
+    "label_awam": "Akselerasi motor terasa lambat / lelet",
+    "gejala_anchor": [
+      "G639"
+    ],
+    "rule_ids_terkait": [
+      "K35",
+      "K45",
+      "K50",
+      "K51",
+      "K59",
+      "K78",
+      "K89"
+    ]
+  },
+  {
+    "kategori_id": "cvt",
+    "id": "cvt-g135",
+    "label_awam": "Motor bergetar tidak normal saat berjalan",
+    "gejala_anchor": [
+      "G135"
+    ],
+    "rule_ids_terkait": [
+      "K18",
+      "K81",
+      "K90",
+      "K94",
+      "K96",
+      "K100"
+    ]
+  },
+  {
+    "kategori_id": "cvt",
+    "id": "cvt-g637",
+    "label_awam": "Tarikan motor terasa kurang halus / bergetar (gredek)",
+    "gejala_anchor": [
+      "G637"
+    ],
+    "rule_ids_terkait": [
+      "K42",
+      "K43",
+      "K55",
+      "K58",
+      "K91",
+      "K99"
+    ]
+  },
+  {
+    "kategori_id": "cvt",
+    "id": "cvt-g423",
+    "label_awam": "Putaran mesin (RPM) naik turun tidak stabil saat berkendara",
+    "gejala_anchor": [
+      "G423"
+    ],
+    "rule_ids_terkait": [
+      "K06",
+      "K40",
+      "K62",
+      "K73",
+      "K82"
+    ]
+  },
+  {
+    "kategori_id": "cvt",
+    "id": "cvt-g136",
+    "label_awam": "Motor terasa bergetar keras di awal mulai jalan (angkatan awal)",
+    "gejala_anchor": [
+      "G136"
+    ],
+    "rule_ids_terkait": [
+      "K06",
+      "K26",
+      "K44",
+      "K59"
+    ]
+  },
+  {
+    "kategori_id": "mesin",
+    "id": "mesin-g664",
+    "label_awam": "Tenaga mesin terasa drop atau berkurang",
+    "gejala_anchor": [
+      "G664"
+    ],
+    "rule_ids_terkait": [
+      "K02",
+      "K21",
+      "K22",
+      "K29",
+      "K144",
+      "K223",
+      "K238",
+      "K263",
+      "K270"
+    ]
+  },
+  {
+    "kategori_id": "mesin",
+    "id": "mesin-g402",
+    "label_awam": "Performa mesin terasa menurun secara keseluruhan",
+    "gejala_anchor": [
+      "G402"
+    ],
+    "rule_ids_terkait": [
+      "K114",
+      "K115",
+      "K123",
+      "K250",
+      "K258",
+      "K274",
+      "K10",
+      "K172",
+      "K178"
+    ]
+  },
+  {
+    "kategori_id": "mesin",
+    "id": "mesin-g306",
+    "label_awam": "Mesin terasa tersendat-sendat atau brebet",
+    "gejala_anchor": [
+      "G306"
+    ],
+    "rule_ids_terkait": [
+      "K02",
+      "K113",
+      "K163",
+      "K178"
+    ]
+  },
+  {
+    "kategori_id": "mesin",
+    "id": "mesin-g032",
+    "label_awam": "Konsumsi bensin terasa jauh lebih boros dari biasanya",
+    "gejala_anchor": [
+      "G032"
+    ],
+    "rule_ids_terkait": [
+      "K02",
+      "K21",
+      "K22",
+      "K113"
+    ]
+  },
+  {
+    "kategori_id": "mesin",
+    "id": "mesin-g189",
+    "label_awam": "Mesin terasa kasar saat berhenti (idle / stasioner)",
+    "gejala_anchor": [
+      "G189"
+    ],
+    "rule_ids_terkait": [
+      "K02",
+      "K21",
+      "K287",
+      "K292"
+    ]
+  },
+  {
+    "kategori_id": "mesin",
+    "id": "mesin-g313",
+    "label_awam": "Suara mesin terdengar kasar dan bising",
+    "gejala_anchor": [
+      "G313"
+    ],
+    "rule_ids_terkait": [
+      "K29",
+      "K10",
+      "K172"
+    ]
+  },
+  {
+    "kategori_id": "kelistrikan",
+    "id": "kelistrikan-g284",
+    "label_awam": "Lampu utama atau panel speedometer terasa redup",
+    "gejala_anchor": [
+      "G284"
+    ],
+    "rule_ids_terkait": [
+      "K04",
+      "K09",
+      "K106",
+      "K141",
+      "K156",
+      "K265"
+    ]
+  },
+  {
+    "kategori_id": "kelistrikan",
+    "id": "kelistrikan-g643",
+    "label_awam": "Kelistrikan motor melemah (starter/klakson loyo)",
+    "gejala_anchor": [
+      "G643"
+    ],
+    "rule_ids_terkait": [
+      "K04",
+      "K158",
+      "K246",
+      "K288"
+    ]
+  },
+  {
+    "kategori_id": "kelistrikan",
+    "id": "kelistrikan-g645",
+    "label_awam": "Tegangan listrik naik-turun (lampu berkedip tidak stabil)",
+    "gejala_anchor": [
+      "G645"
+    ],
+    "rule_ids_terkait": [
+      "K11",
+      "K107",
+      "K157",
+      "K265"
+    ]
+  },
+  {
+    "kategori_id": "kelistrikan",
+    "id": "kelistrikan-g291",
+    "label_awam": "Bohlam lampu motor sering kali putus",
+    "gejala_anchor": [
+      "G291"
+    ],
+    "rule_ids_terkait": [
+      "K09",
+      "K107",
+      "K157"
+    ]
+  },
+  {
+    "kategori_id": "kelistrikan",
+    "id": "kelistrikan-g319",
+    "label_awam": "Mesin tiba-tiba mati akibat kelistrikan terputus",
+    "gejala_anchor": [
+      "G319"
+    ],
+    "rule_ids_terkait": [
+      "K11",
+      "K27",
+      "K266"
+    ]
+  },
+  {
+    "kategori_id": "kelistrikan",
+    "id": "kelistrikan-g290",
+    "label_awam": "Lampu sein menyala terus tetapi tidak berkedip",
+    "gejala_anchor": [
+      "G290"
+    ],
+    "rule_ids_terkait": [
+      "K109",
+      "K110",
+      "K159"
+    ]
+  },
+  {
+    "kategori_id": "pengapian_sensor",
+    "id": "pengapian_sensor-g094",
+    "label_awam": "Lampu indikator mesin (MIL / Check Engine) di dashboard menyala",
+    "gejala_anchor": [
+      "G094"
+    ],
+    "rule_ids_terkait": [
+      "K08",
+      "K154",
+      "K155",
+      "K15",
+      "K16",
+      "K30"
+    ]
+  },
+  {
+    "kategori_id": "pengapian_sensor",
+    "id": "pengapian_sensor-g032",
+    "label_awam": "Konsumsi bensin terasa jauh lebih boros dari biasanya",
+    "gejala_anchor": [
+      "G032"
+    ],
+    "rule_ids_terkait": [
+      "K03",
+      "K17",
+      "K30"
+    ]
+  },
+  {
+    "kategori_id": "pengapian_sensor",
+    "id": "pengapian_sensor-g064",
+    "label_awam": "Mesin brebet / jalannya tersendat",
+    "gejala_anchor": [
+      "G064"
+    ],
+    "rule_ids_terkait": [
+      "K08",
+      "K12",
+      "K16"
+    ]
+  },
+  {
+    "kategori_id": "pengapian_sensor",
+    "id": "pengapian_sensor-g319",
+    "label_awam": "Mesin tiba-tiba mati akibat kelistrikan terputus",
+    "gejala_anchor": [
+      "G319"
+    ],
+    "rule_ids_terkait": [
+      "K12",
+      "K13",
+      "K15"
+    ]
+  },
+  {
+    "kategori_id": "pengapian_sensor",
+    "id": "pengapian_sensor-g664",
+    "label_awam": "Tenaga mesin terasa drop atau berkurang",
+    "gejala_anchor": [
+      "G664"
+    ],
+    "rule_ids_terkait": [
+      "K03",
+      "K30"
+    ]
+  },
+  {
+    "kategori_id": "pengapian_sensor",
+    "id": "pengapian_sensor-g659",
+    "label_awam": "Tenaga mesin mendadak hilang sepenuhnya saat jalan",
+    "gejala_anchor": [
+      "G659"
+    ],
+    "rule_ids_terkait": [
+      "K08",
+      "K12"
+    ]
+  },
+  {
+    "kategori_id": "pendinginan",
+    "id": "pendinginan-g311",
+    "label_awam": "Suhu mesin naik dengan sangat cepat saat digunakan",
+    "gejala_anchor": [
+      "G311"
+    ],
+    "rule_ids_terkait": [
+      "K05",
+      "K117",
+      "K132",
+      "K140",
+      "K150",
+      "K165",
+      "K166",
+      "K231",
+      "K127"
+    ]
+  },
+  {
+    "kategori_id": "pendinginan",
+    "id": "pendinginan-g378",
+    "label_awam": "Mesin mengalami panas berlebih (overheat)",
+    "gejala_anchor": [
+      "G378"
+    ],
+    "rule_ids_terkait": [
+      "K23",
+      "K24",
+      "K234"
+    ]
+  },
+  {
+    "kategori_id": "pendinginan",
+    "id": "pendinginan-g664",
+    "label_awam": "Tenaga mesin terasa drop atau berkurang",
+    "gejala_anchor": [
+      "G664"
+    ],
+    "rule_ids_terkait": [
+      "K05",
+      "K24"
+    ]
+  },
+  {
+    "kategori_id": "pendinginan",
+    "id": "pendinginan-g332",
+    "label_awam": "Lampu indikator suhu tinggi (merah) menyala di panel dashboard",
+    "gejala_anchor": [
+      "G332"
+    ],
+    "rule_ids_terkait": [
+      "K145",
+      "K232"
+    ]
+  },
+  {
+    "kategori_id": "pendinginan",
+    "id": "pendinginan-g404",
+    "label_awam": "Performa mesin drop saat berhenti/stasioner lama",
+    "gejala_anchor": [
+      "G404"
+    ],
+    "rule_ids_terkait": [
+      "K150",
+      "K127"
+    ]
+  },
+  {
+    "kategori_id": "pendinginan",
+    "id": "pendinginan-g244",
+    "label_awam": "Kipas radiator berputar sangat sering atau terus-menerus",
+    "gejala_anchor": [
+      "G244"
+    ],
+    "rule_ids_terkait": [
+      "K05"
+    ]
+  },
+  {
+    "kategori_id": "bahan_bakar",
+    "id": "bahan_bakar-g635",
+    "label_awam": "Tarikan gas terasa tersendat-sendat / putus-putus",
+    "gejala_anchor": [
+      "G635"
+    ],
+    "rule_ids_terkait": [
+      "K07",
+      "K28",
+      "K121",
+      "K131",
+      "K133",
+      "K138",
+      "K148",
+      "K151",
+      "K175"
+    ]
+  },
+  {
+    "kategori_id": "bahan_bakar",
+    "id": "bahan_bakar-g306",
+    "label_awam": "Mesin terasa tersendat-sendat atau brebet",
+    "gejala_anchor": [
+      "G306"
+    ],
+    "rule_ids_terkait": [
+      "K07",
+      "K119",
+      "K143",
+      "K152",
+      "K168",
+      "K214"
+    ]
+  },
+  {
+    "kategori_id": "bahan_bakar",
+    "id": "bahan_bakar-g094",
+    "label_awam": "Lampu indikator mesin (MIL / Check Engine) di dashboard menyala",
+    "gejala_anchor": [
+      "G094"
+    ],
+    "rule_ids_terkait": [
+      "K131",
+      "K152",
+      "K242",
+      "K120",
+      "K183",
+      "K289"
+    ]
+  },
+  {
+    "kategori_id": "bahan_bakar",
+    "id": "bahan_bakar-g032",
+    "label_awam": "Konsumsi bensin terasa jauh lebih boros dari biasanya",
+    "gejala_anchor": [
+      "G032"
+    ],
+    "rule_ids_terkait": [
+      "K07",
+      "K28",
+      "K119",
+      "K169"
+    ]
+  },
+  {
+    "kategori_id": "bahan_bakar",
+    "id": "bahan_bakar-g315",
+    "label_awam": "Mesin terasa ngempos atau kehilangan tenaga saat digas",
+    "gejala_anchor": [
+      "G315"
+    ],
+    "rule_ids_terkait": [
+      "K121",
+      "K148",
+      "K153",
+      "K175"
+    ]
+  },
+  {
+    "kategori_id": "bahan_bakar",
+    "id": "bahan_bakar-g637",
+    "label_awam": "Tarikan motor terasa kurang halus / bergetar (gredek)",
+    "gejala_anchor": [
+      "G637"
+    ],
+    "rule_ids_terkait": [
+      "K143",
+      "K152",
+      "K168",
+      "K214"
+    ]
+  },
+  {
+    "kategori_id": "rem",
+    "id": "rem-g166",
+    "label_awam": "Rem terasa bergetar keras saat tuas rem ditekan",
+    "gejala_anchor": [
+      "G166"
+    ],
+    "rule_ids_terkait": [
+      "K267",
+      "K134",
+      "K135",
+      "K105"
+    ]
+  },
+  {
+    "kategori_id": "rem",
+    "id": "rem-g075",
+    "label_awam": "Terdengar suara decitan nyaring saat mengerem",
+    "gejala_anchor": [
+      "G075"
+    ],
+    "rule_ids_terkait": [
+      "K254",
+      "K296"
+    ]
+  },
+  {
+    "kategori_id": "rem",
+    "id": "rem-g451",
+    "label_awam": "Respon pengereman terasa lambat atau kurang pakem",
+    "gejala_anchor": [
+      "G451"
+    ],
+    "rule_ids_terkait": [
+      "K255",
+      "K103"
+    ]
+  },
+  {
+    "kategori_id": "rem",
+    "id": "rem-g222",
+    "label_awam": "Kampas rem sangat cepat tipis atau aus",
+    "gejala_anchor": [
+      "G222"
+    ],
+    "rule_ids_terkait": [
+      "K268",
+      "K104"
+    ]
+  },
+  {
+    "kategori_id": "rem",
+    "id": "rem-g441",
+    "label_awam": "Kemampuan pengereman memudar saat jalan menurun",
+    "gejala_anchor": [
+      "G441"
+    ],
+    "rule_ids_terkait": [
+      "K282",
+      "K308"
+    ]
+  },
+  {
+    "kategori_id": "rem",
+    "id": "rem-g440",
+    "label_awam": "Rem terasa blong (ditekan penuh tapi motor tidak berhenti)",
+    "gejala_anchor": [
+      "G440"
+    ],
+    "rule_ids_terkait": [
+      "K19"
+    ]
+  },
+  {
+    "kategori_id": "knalpot",
+    "id": "knalpot-g612",
+    "label_awam": "Motor terasa berat / tarikan kurang responsif saat digas",
+    "gejala_anchor": [
+      "G612"
+    ],
+    "rule_ids_terkait": [
+      "K25",
+      "K128",
+      "K174"
+    ]
+  },
+  {
+    "kategori_id": "knalpot",
+    "id": "knalpot-g032",
+    "label_awam": "Konsumsi bensin terasa jauh lebih boros dari biasanya",
+    "gejala_anchor": [
+      "G032"
+    ],
+    "rule_ids_terkait": [
+      "K25",
+      "K128"
+    ]
+  },
+  {
+    "kategori_id": "knalpot",
+    "id": "knalpot-g586",
+    "label_awam": "Suara letupan knalpot berubah / tidak merata",
+    "gejala_anchor": [
+      "G586"
+    ],
+    "rule_ids_terkait": [
+      "K128",
+      "K174"
+    ]
+  },
+  {
+    "kategori_id": "knalpot",
+    "id": "knalpot-g542",
+    "label_awam": "Terdengar suara letupan atau desisan bocor dari knalpot",
+    "gejala_anchor": [
+      "G542"
+    ],
+    "rule_ids_terkait": [
+      "K25"
+    ]
+  },
+  {
+    "kategori_id": "knalpot",
+    "id": "knalpot-g333",
+    "label_awam": "Mesin cepat panas atau terasa gerah di kaki",
+    "gejala_anchor": [
+      "G333"
+    ],
+    "rule_ids_terkait": [
+      "K25"
+    ]
+  },
+  {
+    "kategori_id": "knalpot",
+    "id": "knalpot-g028",
+    "label_awam": "Knalpot mengeluarkan asap hitam pekat",
+    "gejala_anchor": [
+      "G028"
+    ],
+    "rule_ids_terkait": [
+      "K25"
+    ]
+  },
+  {
+    "kategori_id": "bodi_kaki",
+    "id": "bodi_kaki-g511",
+    "label_awam": "Motor terasa oleng atau stabilitas berkurang saat jalan",
+    "gejala_anchor": [
+      "G511"
+    ],
+    "rule_ids_terkait": [
+      "K299",
+      "K302"
+    ]
+  },
+  {
+    "kategori_id": "bodi_kaki",
+    "id": "bodi_kaki-g068",
+    "label_awam": "Terdengar bunyi berisik/kriet-kriet dari bodi atau suspensi",
+    "gejala_anchor": [
+      "G068"
+    ],
+    "rule_ids_terkait": [
+      "K307",
+      "K306"
+    ]
+  },
+  {
+    "kategori_id": "bodi_kaki",
+    "id": "bodi_kaki-g184",
+    "label_awam": "Kemudi/setang terasa berat atau menarik ke satu sisi",
+    "gejala_anchor": [
+      "G184"
+    ],
+    "rule_ids_terkait": [
+      "K301",
+      "K305"
+    ]
+  },
+  {
+    "kategori_id": "bodi_kaki",
+    "id": "bodi_kaki-g071",
+    "label_awam": "Bodi motor terasa bergetar keras dan berisik",
+    "gejala_anchor": [
+      "G071"
+    ],
+    "rule_ids_terkait": [
+      "K298"
+    ]
+  },
+  {
+    "kategori_id": "bodi_kaki",
+    "id": "bodi_kaki-g118",
+    "label_awam": "Bodi motor renggang, retak, atau tidak presisi",
+    "gejala_anchor": [
+      "G118"
+    ],
+    "rule_ids_terkait": [
+      "K298"
+    ]
+  },
+  {
+    "kategori_id": "bodi_kaki",
+    "id": "bodi_kaki-g415",
+    "label_awam": "Komponen bodi/rangka terasa longgar atau hampir lepas",
+    "gejala_anchor": [
+      "G415"
+    ],
+    "rule_ids_terkait": [
+      "K298"
+    ]
+  }
+]

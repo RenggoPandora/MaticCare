@@ -1,0 +1,114 @@
+[
+  {
+    "id": "cvt",
+    "nama": "CVT & Transmisi Otomatis",
+    "deskripsi": "Komponen penggerak otomatis: variator, roller, v-belt, kopling ganda",
+    "bagian_terkait": [
+      "CVT"
+    ],
+    "jumlah_rule": 74,
+    "icon": "circle-gauge"
+  },
+  {
+    "id": "mesin",
+    "nama": "Mesin & Pelumasan",
+    "deskripsi": "Performa mesin, kompresi, klep, piston, oli mesin",
+    "bagian_terkait": [
+      "MESIN",
+      "ENGINE",
+      "PELUMASAN"
+    ],
+    "jumlah_rule": 61,
+    "icon": "cog"
+  },
+  {
+    "id": "kelistrikan",
+    "nama": "Kelistrikan & Lampu",
+    "deskripsi": "Aki, kiprok, spul, sekring, lampu utama/rem/sein",
+    "bagian_terkait": [
+      "KELISTRIKAN",
+      "ELECTRICAL",
+      "LAMPU",
+      "LAMPU UTAMA",
+      "LAMPU REM"
+    ],
+    "jumlah_rule": 62,
+    "icon": "zap"
+  },
+  {
+    "id": "pengapian_sensor",
+    "nama": "Pengapian & Sensor",
+    "deskripsi": "Busi, koil, CDI, pulser, sensor TPS/MAP/ECT/O2",
+    "bagian_terkait": [
+      "PENGAPIAN",
+      "SISTEM PENGAPIAN",
+      "SENSOR"
+    ],
+    "jumlah_rule": 15,
+    "icon": "flame"
+  },
+  {
+    "id": "pendinginan",
+    "nama": "Sistem Pendinginan",
+    "deskripsi": "Radiator, kipas, thermostat, cairan pendingin",
+    "bagian_terkait": [
+      "PENDINGINAN",
+      "SISTEM PENDINGINAN"
+    ],
+    "jumlah_rule": 16,
+    "icon": "thermometer"
+  },
+  {
+    "id": "bahan_bakar",
+    "nama": "Bahan Bakar & Injeksi",
+    "deskripsi": "Karburator, injektor, fuel pump, filter bensin, throttle body",
+    "bagian_terkait": [
+      "BAHAN BAKAR",
+      "SISTEM BAHAN BAKAR",
+      "FUEL SYSTEM",
+      "SISTEM INJEKSI",
+      "SYSTEM",
+      "SISTEM"
+    ],
+    "jumlah_rule": 46,
+    "icon": "fuel"
+  },
+  {
+    "id": "rem",
+    "nama": "Sistem Rem",
+    "deskripsi": "Rem depan, rem belakang, ABS, kampas, minyak rem",
+    "bagian_terkait": [
+      "REM",
+      "REM DEPAN",
+      "REM BELAKANG",
+      "REM ABS"
+    ],
+    "jumlah_rule": 21,
+    "icon": "disc"
+  },
+  {
+    "id": "knalpot",
+    "nama": "Knalpot & Emisi",
+    "deskripsi": "Knalpot tersumbat, catalytic converter, kebocoran gas buang",
+    "bagian_terkait": [
+      "KNALPOT",
+      "EXHAUST"
+    ],
+    "jumlah_rule": 5,
+    "icon": "wind"
+  },
+  {
+    "id": "bodi_kaki",
+    "nama": "Bodi, Rangka & Kaki-kaki",
+    "deskripsi": "Suspensi, ban, kemudi, rangka, bodi",
+    "bagian_terkait": [
+      "BODI",
+      "RANGKA",
+      "SUSPENSI",
+      "BAN",
+      "KEMUDI"
+    ],
+    "jumlah_rule": 10,
+    "icon": "settings"
+  }
+]

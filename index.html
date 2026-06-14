@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>MaticCare — Sistem Pakar Diagnosa Kerusakan Motor Matic</title>
+  <meta name="description" content="Aplikasi sistem pakar untuk mendiagnosa kerusakan motor matic Anda secara mandiri menggunakan metode forward chaining.">
+  <link rel="stylesheet" href="/src/styles/main.css">
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+  <div class="layout-wrapper">
+    <!-- Header -->
+    <header class="main-header">
+      <div class="header-content">
+        <a href="#/" class="logo-group">
+          <!-- OBD Diagnostic Scanner Icon -->
+          <svg class="logo-icon" viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <rect x="3" y="3" width="18" height="18" rx="2" ry="2"/>
+            <path d="M21 9H3"/>
+            <path d="M21 15H3"/>
+            <path d="M12 3v18"/>
+          </svg>
+          <span class="logo-text">Matic<span class="accent-text">Care</span></span>
+        </a>
+        <div class="header-badge">SCANNER V1.0</div>
+      </div>
+    </header>
+
+    <!-- Progress Indicator Step 1-5 -->
+    <div id="progress-container" class="progress-container hidden">
+      <div class="progress-bar-bg">
+        <div class="progress-bar-fill" style="width: 0%;"></div>
+      </div>
+      <div class="steps-wrapper">
+        <div class="step" data-step="1">
+          <div class="step-num">1</div>
+          <span class="step-label">Sistem</span>
+        </div>
+        <div class="step" data-step="2">
+          <div class="step-num">2</div>
+          <span class="step-label">Keluhan</span>
+        </div>
+        <div class="step" data-step="3">
+          <div class="step-num">3</div>
+          <span class="step-label">Gejala</span>
+        </div>
+        <div class="step" data-step="4">
+          <div class="step-num">4</div>
+          <span class="step-label">Analisa</span>
+        </div>
+        <div class="step" data-step="5">
+          <div class="step-num">5</div>
+          <span class="step-label">Hasil</span>
+        </div>
+      </div>
+    </div>
+
+    <!-- Main Viewport -->
+    <main id="app" class="main-content">
+      <!-- Views rendered here -->
+    </main>
+
+    <!-- Footer -->
+    <footer class="main-footer">
+      <div class="footer-content">
+        <p class="disclaimer-text">
+          <strong>Disclaimer:</strong> Hasil diagnosa MaticCare bersifat indikasi awal berdasarkan gejala yang dipilih. Untuk keselamatan Anda, periksakan motor ke bengkel / mekanik profesional.
+        </p>
+        <p class="copyright-text">&copy; 2026 MaticCare. Dibuat dengan presisi untuk pemilik motor matic.</p>
+      </div>
+    </footer>
+  </div>
+
+  <script type="module" src="/src/main.js"></script>
+</body>
+</html>

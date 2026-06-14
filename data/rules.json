@@ -1,0 +1,4806 @@
+[
+  {
+    "id": "K01",
+    "bagian": "CVT",
+    "kerusakan": "CVT slip",
+    "gejala_codes": [
+      "G612",
+      "G422",
+      "G040",
+      "G076",
+      "G011",
+      "G154",
+      "G032"
+    ],
+    "gejala_names": [
+      "Tarikan berat",
+      "RPM naik tapi laju lambat",
+      "Bau gosong",
+      "Bunyi decit CVT",
+      "Akselerasi lambat",
+      "Getaran ringan",
+      "BBM boros"
+    ]
+  },
+  {
+    "id": "K06",
+    "bagian": "CVT",
+    "kerusakan": "Roller aus",
+    "gejala_codes": [
+      "G611",
+      "G136",
+      "G423",
+      "G081",
+      "G012",
+      "G032"
+    ],
+    "gejala_names": [
+      "Tarikan awal lambat",
+      "Getaran awal",
+      "RPM naik turun",
+      "Bunyi kasar CVT",
+      "Akselerasi tersendat",
+      "BBM boros"
+    ]
+  },
+  {
+    "id": "K18",
+    "bagian": "CVT",
+    "kerusakan": "Vanbelt aus",
+    "gejala_codes": [
+      "G612",
+      "G047",
+      "G135",
+      "G428",
+      "G087"
+    ],
+    "gejala_names": [
+      "Tarikan berat",
+      "Bau kampas",
+      "Getaran",
+      "RPM tinggi",
+      "CVT panas"
+    ]
+  },
+  {
+    "id": "K26",
+    "bagian": "CVT",
+    "kerusakan": "Kampas ganda licin",
+    "gejala_codes": [
+      "G136",
+      "G040",
+      "G428",
+      "G623",
+      "G087"
+    ],
+    "gejala_names": [
+      "Getaran awal",
+      "Bau gosong",
+      "RPM tinggi",
+      "Tarikan lemah",
+      "CVT panas"
+    ]
+  },
+  {
+    "id": "K31",
+    "bagian": "CVT",
+    "kerusakan": "Kampas sentrifugal aus",
+    "gejala_codes": [
+      "G636",
+      "G432",
+      "G634",
+      "G397"
+    ],
+    "gejala_names": [
+      "Tarikan tersendat pada putaran rendah",
+      "RPM tinggi tetapi tak optimal",
+      "Tarikan terasa tidak mulus",
+      "Penurunan performa"
+    ]
+  },
+  {
+    "id": "K32",
+    "bagian": "CVT",
+    "kerusakan": "Secondary sheave aus",
+    "gejala_codes": [
+      "G013",
+      "G620",
+      "G545",
+      "G140"
+    ],
+    "gejala_names": [
+      "Akselerasi tertahan di rpm menengah",
+      "Tarikan lambat di tanjakan",
+      "Suara aneh saat deselerasi",
+      "Getaran halus berulang"
+    ]
+  },
+  {
+    "id": "K33",
+    "bagian": "CVT",
+    "kerusakan": "Pulley primer aus",
+    "gejala_codes": [
+      "G072",
+      "G317",
+      "G613"
+    ],
+    "gejala_names": [
+      "Bunyi berisik dari area CVT",
+      "Mesin kurang mantap di kecepatan rendah",
+      "Tarikan berat pada awal"
+    ]
+  },
+  {
+    "id": "K34",
+    "bagian": "CVT",
+    "kerusakan": "Pulley sekunder aus",
+    "gejala_codes": [
+      "G553",
+      "G350",
+      "G142"
+    ],
+    "gejala_names": [
+      "Suara decitan saat jalan",
+      "Motor kurang stabil di kecepatan rendah",
+      "Getaran kecil terus"
+    ]
+  },
+  {
+    "id": "K35",
+    "bagian": "CVT",
+    "kerusakan": "Per CVT lemah / aus",
+    "gejala_codes": [
+      "G367",
+      "G035",
+      "G639",
+      "G014"
+    ],
+    "gejala_names": [
+      "Motor tersendat di rpm rendah",
+      "Ban belakang berputar saat idle",
+      "Tarikan tidak responsif",
+      "Akselerasi tidak mulus"
+    ]
+  },
+  {
+    "id": "K36",
+    "bagian": "CVT",
+    "kerusakan": "Per CVT rusak",
+    "gejala_codes": [
+      "G177",
+      "G612",
+      "G014",
+      "G545"
+    ],
+    "gejala_names": [
+      "Getaran tidak biasa saat jalan",
+      "Tarikan berat",
+      "Akselerasi tidak mulus",
+      "Suara aneh saat deselerasi"
+    ]
+  },
+  {
+    "id": "K37",
+    "bagian": "CVT",
+    "kerusakan": "Bearing gearbox aus",
+    "gejala_codes": [
+      "G560",
+      "G160",
+      "G164"
+    ],
+    "gejala_names": [
+      "Suara dengungan keras dari CVT",
+      "Getaran saat deselerasi",
+      "Getaran saat kecepatan tinggi"
+    ]
+  },
+  {
+    "id": "K38",
+    "bagian": "CVT",
+    "kerusakan": "Gear rasio gearbox aus",
+    "gejala_codes": [
+      "G558",
+      "G626",
+      "G427"
+    ],
+    "gejala_names": [
+      "Suara dengung konstan",
+      "Tarikan motor tak halus pada speed tertentu",
+      "RPM tidak stabil"
+    ]
+  },
+  {
+    "id": "K39",
+    "bagian": "CVT",
+    "kerusakan": "Housing CVT kotor/debu",
+    "gejala_codes": [
+      "G077",
+      "G036",
+      "G142"
+    ],
+    "gejala_names": [
+      "Bunyi decitan saat idle",
+      "Banyak debu hitam di housing",
+      "Getaran kecil terus"
+    ]
+  },
+  {
+    "id": "K40",
+    "bagian": "CVT",
+    "kerusakan": "Seal CVT bocor",
+    "gejala_codes": [
+      "G051",
+      "G374",
+      "G423",
+      "G574"
+    ],
+    "gejala_names": [
+      "Bau oli gosong dari area CVT",
+      "Oli CVT bocor keluar",
+      "RPM naik turun",
+      "Suara kasar dekelerasi"
+    ]
+  },
+  {
+    "id": "K41",
+    "bagian": "CVT",
+    "kerusakan": "V-belt glazing",
+    "gejala_codes": [
+      "G363",
+      "G612",
+      "G040"
+    ],
+    "gejala_names": [
+      "Motor terasa lambat respon",
+      "Tarikan berat",
+      "Bau gosong"
+    ]
+  },
+  {
+    "id": "K42",
+    "bagian": "CVT",
+    "kerusakan": "V-belt edge wear",
+    "gejala_codes": [
+      "G498",
+      "G564",
+      "G637"
+    ],
+    "gejala_names": [
+      "Slip di rpm rendah",
+      "Suara gesek halus",
+      "Tarikan tidak halus"
+    ]
+  },
+  {
+    "id": "K43",
+    "bagian": "CVT",
+    "kerusakan": "Pulley slider aus",
+    "gejala_codes": [
+      "G577",
+      "G637",
+      "G157"
+    ],
+    "gejala_names": [
+      "Suara kasar saat idle",
+      "Tarikan tidak halus",
+      "Getaran ringan saat jalan"
+    ]
+  },
+  {
+    "id": "K44",
+    "bagian": "CVT",
+    "kerusakan": "Contra spring lemah",
+    "gejala_codes": [
+      "G505",
+      "G592",
+      "G136"
+    ],
+    "gejala_names": [
+      "Slip saat takeoff",
+      "Suara whirring saat awal",
+      "Getaran awal"
+    ]
+  },
+  {
+    "id": "K45",
+    "bagian": "CVT",
+    "kerusakan": "Corong/guide pin aus",
+    "gejala_codes": [
+      "G639",
+      "G500",
+      "G543"
+    ],
+    "gejala_names": [
+      "Tarikan tidak responsif",
+      "Slip pada tanjakan",
+      "Suara aneh CVT"
+    ]
+  },
+  {
+    "id": "K46",
+    "bagian": "CVT",
+    "kerusakan": "Secondary sheave pin wear",
+    "gejala_codes": [
+      "G549",
+      "G629",
+      "G175",
+      "G045"
+    ],
+    "gejala_names": [
+      "Suara berdengung pada rpm tertentu",
+      "Tarikan tak konsisten",
+      "Getaran tersendat",
+      "Bau gosong ringan"
+    ]
+  },
+  {
+    "id": "K47",
+    "bagian": "CVT",
+    "kerusakan": "Slider wear",
+    "gejala_codes": [
+      "G638",
+      "G155",
+      "G546"
+    ],
+    "gejala_names": [
+      "Tarikan tidak konsisten",
+      "Getaran ringan berulang",
+      "Suara berdecit dari CVT"
+    ]
+  },
+  {
+    "id": "K48",
+    "bagian": "CVT",
+    "kerusakan": "Belt dust build-up",
+    "gejala_codes": [
+      "G037",
+      "G612",
+      "G142"
+    ],
+    "gejala_names": [
+      "Banyak debu hitam terlihat di CVT",
+      "Tarikan berat",
+      "Getaran kecil terus"
+    ]
+  },
+  {
+    "id": "K49",
+    "bagian": "CVT",
+    "kerusakan": "Bearing/gigi aus",
+    "gejala_codes": [
+      "G572",
+      "G174",
+      "G358"
+    ],
+    "gejala_names": [
+      "Suara kasar berdenyut",
+      "Getaran tak wajar",
+      "Motor tak stabil"
+    ]
+  },
+  {
+    "id": "K50",
+    "bagian": "CVT",
+    "kerusakan": "Pulley face wear",
+    "gejala_codes": [
+      "G151",
+      "G550",
+      "G639",
+      "G622",
+      "G353"
+    ],
+    "gejala_names": [
+      "Getaran pada laju rendah & tinggi",
+      "Suara decitan atau dengung",
+      "Tarikan tidak responsif",
+      "Tarikan lebih berat dari normal",
+      "Motor sulit akselerasi"
+    ]
+  },
+  {
+    "id": "K51",
+    "bagian": "CVT",
+    "kerusakan": "Belt hampir putus",
+    "gejala_codes": [
+      "G551",
+      "G420",
+      "G041",
+      "G156",
+      "G639",
+      "G499"
+    ],
+    "gejala_names": [
+      "Suara decitan dari CVT",
+      "Putaran mesin tak sesuai laju",
+      "Bau gosong dari area CVT",
+      "Getaran ringan saat aksel",
+      "Tarikan tidak responsif",
+      "Slip pada RPM rendah"
+    ]
+  },
+  {
+    "id": "K52",
+    "bagian": "CVT",
+    "kerusakan": "Belt gesekan pada housing",
+    "gejala_codes": [
+      "G565",
+      "G162",
+      "G469",
+      "G048",
+      "G427"
+    ],
+    "gejala_names": [
+      "Suara gesek saat take-off",
+      "Getaran saat gas dibuka",
+      "Rubber belt terlihat serbuk",
+      "Bau karet terbakar ringan",
+      "RPM tidak stabil"
+    ]
+  },
+  {
+    "id": "K53",
+    "bagian": "CVT",
+    "kerusakan": "Roller flat spot",
+    "gejala_codes": [
+      "G141",
+      "G593",
+      "G612"
+    ],
+    "gejala_names": [
+      "Getaran hebat saat kecepatan pelan",
+      "Suara “ngrecek-ngrecek”",
+      "Tarikan berat"
+    ]
+  },
+  {
+    "id": "K54",
+    "bagian": "CVT",
+    "kerusakan": "Pulley primer bermasalah",
+    "gejala_codes": [
+      "G613",
+      "G072",
+      "G359"
+    ],
+    "gejala_names": [
+      "Tarikan berat pada awal",
+      "Bunyi berisik dari area CVT",
+      "Motor tak stabil di speed rendah"
+    ]
+  },
+  {
+    "id": "K55",
+    "bagian": "CVT",
+    "kerusakan": "Pulley sekunder aus",
+    "gejala_codes": [
+      "G160",
+      "G559",
+      "G637"
+    ],
+    "gejala_names": [
+      "Getaran saat deselerasi",
+      "Suara dengung saat RPM menengah",
+      "Tarikan tidak halus"
+    ]
+  },
+  {
+    "id": "K56",
+    "bagian": "CVT",
+    "kerusakan": "Kopling slip ringan",
+    "gejala_codes": [
+      "G012",
+      "G503",
+      "G579"
+    ],
+    "gejala_names": [
+      "Akselerasi tersendat",
+      "Slip saat RPM rendah",
+      "Suara kasarnya sedikit"
+    ]
+  },
+  {
+    "id": "K57",
+    "bagian": "CVT",
+    "kerusakan": "Kopling gesekan berlebih",
+    "gejala_codes": [
+      "G431",
+      "G625",
+      "G046"
+    ],
+    "gejala_names": [
+      "RPM tinggi tapi laju rendah",
+      "Tarikan motor berat/lemot",
+      "Bau gosong saat jalan"
+    ]
+  },
+  {
+    "id": "K58",
+    "bagian": "CVT",
+    "kerusakan": "Kampas sentrifugal mengeras",
+    "gejala_codes": [
+      "G637",
+      "G163",
+      "G366",
+      "G106"
+    ],
+    "gejala_names": [
+      "Tarikan tidak halus",
+      "Getaran saat jalan pelan",
+      "Motor terasa “ngejeda” saat gas",
+      "Efisiensi BBM turun"
+    ]
+  },
+  {
+    "id": "K59",
+    "bagian": "CVT",
+    "kerusakan": "Per CVT melemah parah",
+    "gejala_codes": [
+      "G035",
+      "G136",
+      "G639"
+    ],
+    "gejala_names": [
+      "Ban belakang berputar saat idle",
+      "Getaran awal",
+      "Tarikan tidak responsif"
+    ]
+  },
+  {
+    "id": "K60",
+    "bagian": "CVT",
+    "kerusakan": "Secondary fixed sheave pin longgar",
+    "gejala_codes": [
+      "G638",
+      "G150",
+      "G548"
+    ],
+    "gejala_names": [
+      "Tarikan tidak konsisten",
+      "Getaran pada RPM menengah",
+      "Suara berdengung halus"
+    ]
+  },
+  {
+    "id": "K61",
+    "bagian": "CVT",
+    "kerusakan": "Secondary fixed sheave aus",
+    "gejala_codes": [
+      "G361",
+      "G619"
+    ],
+    "gejala_names": [
+      "Motor terasa berat di tanjakan",
+      "Tarikan lambat RPM menengah"
+    ]
+  },
+  {
+    "id": "K62",
+    "bagian": "CVT",
+    "kerusakan": "Drive belt slip sporadis",
+    "gejala_codes": [
+      "G569",
+      "G423",
+      "G632"
+    ],
+    "gejala_names": [
+      "Suara gesekan tak stabil",
+      "RPM naik turun",
+      "Tarikan tak smooth"
+    ]
+  },
+  {
+    "id": "K63",
+    "bagian": "CVT",
+    "kerusakan": "Bearing variator aus",
+    "gejala_codes": [
+      "G556",
+      "G178",
+      "G365"
+    ],
+    "gejala_names": [
+      "Suara dengung dari variator",
+      "Getaran tidak konsisten",
+      "Motor terasa tidak stabil"
+    ]
+  },
+  {
+    "id": "K64",
+    "bagian": "CVT",
+    "kerusakan": "Variator damage",
+    "gejala_codes": [
+      "G429",
+      "G552",
+      "G501"
+    ],
+    "gejala_names": [
+      "RPM tinggi namun berat",
+      "Suara decitan saat idle",
+      "Slip ringan awal"
+    ]
+  },
+  {
+    "id": "K65",
+    "bagian": "CVT",
+    "kerusakan": "Clutch drum wear",
+    "gejala_codes": [
+      "G573",
+      "G612",
+      "G140"
+    ],
+    "gejala_names": [
+      "Suara kasar dari box CVT",
+      "Tarikan berat",
+      "Getaran halus berulang"
+    ]
+  },
+  {
+    "id": "K66",
+    "bagian": "CVT",
+    "kerusakan": "Clutch springs lemah",
+    "gejala_codes": [
+      "G496",
+      "G618",
+      "G430"
+    ],
+    "gejala_names": [
+      "Slip awal take-off",
+      "Tarikan lambat",
+      "RPM tinggi tapi berat"
+    ]
+  },
+  {
+    "id": "K67",
+    "bagian": "CVT",
+    "kerusakan": "Belt tracking off",
+    "gejala_codes": [
+      "G058",
+      "G544",
+      "G173"
+    ],
+    "gejala_names": [
+      "Belt bouncing saat jalan",
+      "Suara aneh saat accelerating",
+      "Getaran tak konsisten"
+    ]
+  },
+  {
+    "id": "K68",
+    "bagian": "CVT",
+    "kerusakan": "CVT housing dented",
+    "gejala_codes": [
+      "G059",
+      "G568",
+      "G419"
+    ],
+    "gejala_names": [
+      "Belt geser tidak benar",
+      "Suara gesekan sama",
+      "Putaran mesin tak optimal"
+    ]
+  },
+  {
+    "id": "K69",
+    "bagian": "CVT",
+    "kerusakan": "Pulley groove wear",
+    "gejala_codes": [
+      "G577",
+      "G161",
+      "G360"
+    ],
+    "gejala_names": [
+      "Suara kasar saat idle",
+      "Getaran saat gas 50–70%",
+      "Motor terasa berat"
+    ]
+  },
+  {
+    "id": "K70",
+    "bagian": "CVT",
+    "kerusakan": "Roller wedge flats",
+    "gejala_codes": [
+      "G137",
+      "G631",
+      "G497"
+    ],
+    "gejala_names": [
+      "Getaran besar pada RPM rendah",
+      "Tarikan tak serius",
+      "Slip belitan ringan"
+    ]
+  },
+  {
+    "id": "K71",
+    "bagian": "CVT",
+    "kerusakan": "Hub assembly wear",
+    "gejala_codes": [
+      "G349",
+      "G554",
+      "G148"
+    ],
+    "gejala_names": [
+      "Motor goyah kecepatan tinggi",
+      "Suara dengung",
+      "Getaran mount terasa"
+    ]
+  },
+  {
+    "id": "K72",
+    "bagian": "CVT",
+    "kerusakan": "Dryer/filter clog",
+    "gejala_codes": [
+      "G127",
+      "G618",
+      "G157"
+    ],
+    "gejala_names": [
+      "Gejala debu hitam berlebih",
+      "Tarikan lambat",
+      "Getaran ringan saat jalan"
+    ]
+  },
+  {
+    "id": "K73",
+    "bagian": "CVT",
+    "kerusakan": "Oil seal leak",
+    "gejala_codes": [
+      "G374",
+      "G050",
+      "G423"
+    ],
+    "gejala_names": [
+      "Oli CVT bocor keluar",
+      "Bau oli bakar",
+      "RPM naik turun"
+    ]
+  },
+  {
+    "id": "K74",
+    "bagian": "CVT",
+    "kerusakan": "Gearbox bearing failure",
+    "gejala_codes": [
+      "G557",
+      "G143",
+      "G360",
+      "G106"
+    ],
+    "gejala_names": [
+      "Suara dengung keras saat rpm tinggi",
+      "Getaran kuat",
+      "Motor terasa berat",
+      "Efisiensi BBM turun"
+    ]
+  },
+  {
+    "id": "K75",
+    "bagian": "CVT",
+    "kerusakan": "Gearbox misalignment",
+    "gejala_codes": [
+      "G575",
+      "G171",
+      "G014"
+    ],
+    "gejala_names": [
+      "Suara kasar di speed stabil",
+      "Getaran stang",
+      "Akselerasi tidak mulus"
+    ]
+  },
+  {
+    "id": "K76",
+    "bagian": "CVT",
+    "kerusakan": "Secondary sheave roller wear",
+    "gejala_codes": [
+      "G630",
+      "G561",
+      "G158"
+    ],
+    "gejala_names": [
+      "Tarikan tak linear",
+      "Suara deselerasi aneh",
+      "Getaran rpm menengah"
+    ]
+  },
+  {
+    "id": "K77",
+    "bagian": "CVT",
+    "kerusakan": "Secondary slider pin wear",
+    "gejala_codes": [
+      "G504",
+      "G612",
+      "G583"
+    ],
+    "gejala_names": [
+      "Slip saat rpm menengah",
+      "Tarikan berat",
+      "Suara knalpot tak konsisten"
+    ]
+  },
+  {
+    "id": "K78",
+    "bagian": "CVT",
+    "kerusakan": "Primary slider wear",
+    "gejala_codes": [
+      "G639",
+      "G577",
+      "G690"
+    ],
+    "gejala_names": [
+      "Tarikan tidak responsif",
+      "Suara kasar saat idle",
+      "Vibrasi berulang"
+    ]
+  },
+  {
+    "id": "K79",
+    "bagian": "CVT",
+    "kerusakan": "Floor/dust assembly wear",
+    "gejala_codes": [
+      "G396",
+      "G140",
+      "G612"
+    ],
+    "gejala_names": [
+      "Penumpukan debu hitam banyak",
+      "Getaran halus berulang",
+      "Tarikan berat"
+    ]
+  },
+  {
+    "id": "K80",
+    "bagian": "CVT",
+    "kerusakan": "Variator runner wear",
+    "gejala_codes": [
+      "G427",
+      "G547",
+      "G640"
+    ],
+    "gejala_names": [
+      "RPM tidak stabil",
+      "Suara berdengung",
+      "Tarikan tidak smooth"
+    ]
+  },
+  {
+    "id": "K81",
+    "bagian": "CVT",
+    "kerusakan": "Belt glaze heavy",
+    "gejala_codes": [
+      "G621",
+      "G044",
+      "G135"
+    ],
+    "gejala_names": [
+      "Tarikan lambat konsisten",
+      "Bau gosong kuat saat stop",
+      "Getaran"
+    ]
+  },
+  {
+    "id": "K82",
+    "bagian": "CVT",
+    "kerusakan": "Contra spring broken",
+    "gejala_codes": [
+      "G676",
+      "G614",
+      "G423"
+    ],
+    "gejala_names": [
+      "Tidak mampu take-off baik",
+      "Tarikan drop",
+      "RPM naik turun"
+    ]
+  },
+  {
+    "id": "K83",
+    "bagian": "CVT",
+    "kerusakan": "Sheave face wear",
+    "gejala_codes": [
+      "G578",
+      "G630",
+      "G176"
+    ],
+    "gejala_names": [
+      "Suara kasar saat jalan pelan",
+      "Tarikan tak linear",
+      "Getaran tidak biasa"
+    ]
+  },
+  {
+    "id": "K84",
+    "bagian": "CVT",
+    "kerusakan": "Tensioner wear",
+    "gejala_codes": [
+      "G502",
+      "G545",
+      "G612"
+    ],
+    "gejala_names": [
+      "Slip ringan berulang",
+      "Suara aneh saat deselerasi",
+      "Tarikan berat"
+    ]
+  },
+  {
+    "id": "K85",
+    "bagian": "CVT",
+    "kerusakan": "CVT chain belt guide wear",
+    "gejala_codes": [
+      "G060",
+      "G168",
+      "G566"
+    ],
+    "gejala_names": [
+      "Belt tidak lurus pada puli",
+      "Getaran saat speed stabil",
+      "Suara gesekan"
+    ]
+  },
+  {
+    "id": "K86",
+    "bagian": "CVT",
+    "kerusakan": "Pulley pressure plate warp",
+    "gejala_codes": [
+      "G152",
+      "G612",
+      "G580"
+    ],
+    "gejala_names": [
+      "Getaran pada rpm rendah",
+      "Tarikan berat",
+      "Suara keras"
+    ]
+  },
+  {
+    "id": "K87",
+    "bagian": "CVT",
+    "kerusakan": "Clutch plate crack",
+    "gejala_codes": [
+      "G590",
+      "G618",
+      "G170"
+    ],
+    "gejala_names": [
+      "Suara pecah-pecah saat gear",
+      "Tarikan lambat",
+      "Getaran semakin parah"
+    ]
+  },
+  {
+    "id": "K88",
+    "bagian": "CVT",
+    "kerusakan": "Secondary flange wear",
+    "gejala_codes": [
+      "G635",
+      "G154",
+      "G570"
+    ],
+    "gejala_names": [
+      "Tarikan tersendat",
+      "Getaran ringan",
+      "Suara halus abnormal"
+    ]
+  },
+  {
+    "id": "K89",
+    "bagian": "CVT",
+    "kerusakan": "Primary flange wear",
+    "gejala_codes": [
+      "G639",
+      "G576",
+      "G154"
+    ],
+    "gejala_names": [
+      "Tarikan tidak responsif",
+      "Suara kasar idle",
+      "Getaran ringan"
+    ]
+  },
+  {
+    "id": "K90",
+    "bagian": "CVT",
+    "kerusakan": "V-belt heating high",
+    "gejala_codes": [
+      "G043",
+      "G624",
+      "G135"
+    ],
+    "gejala_names": [
+      "Bau gosong kuat saat jalan lama",
+      "Tarikan menurun",
+      "Getaran"
+    ]
+  },
+  {
+    "id": "K91",
+    "bagian": "CVT",
+    "kerusakan": "Tension spring fatigue",
+    "gejala_codes": [
+      "G499",
+      "G637"
+    ],
+    "gejala_names": [
+      "Slip pada RPM rendah",
+      "Tarikan tidak halus"
+    ]
+  },
+  {
+    "id": "K92",
+    "bagian": "CVT",
+    "kerusakan": "Contra spring overstress",
+    "gejala_codes": [
+      "G424",
+      "G612"
+    ],
+    "gejala_names": [
+      "RPM naik turun tak konsisten",
+      "Tarikan berat"
+    ]
+  },
+  {
+    "id": "K93",
+    "bagian": "CVT",
+    "kerusakan": "Drive train backlash",
+    "gejala_codes": [
+      "G078",
+      "G172"
+    ],
+    "gejala_names": [
+      "Bunyi dengung cepat naik",
+      "Getaran tajam"
+    ]
+  },
+  {
+    "id": "K94",
+    "bagian": "CVT",
+    "kerusakan": "Primary gear wear",
+    "gejala_codes": [
+      "G554",
+      "G357",
+      "G135"
+    ],
+    "gejala_names": [
+      "Suara dengung",
+      "Motor tak kencang",
+      "Getaran"
+    ]
+  },
+  {
+    "id": "K95",
+    "bagian": "CVT",
+    "kerusakan": "Secondary gear wear",
+    "gejala_codes": [
+      "G571",
+      "G612",
+      "G109"
+    ],
+    "gejala_names": [
+      "Suara kasar",
+      "Tarikan berat",
+      "Efisiensi turun"
+    ]
+  },
+  {
+    "id": "K96",
+    "bagian": "CVT",
+    "kerusakan": "Foreign debris CVT",
+    "gejala_codes": [
+      "G486",
+      "G542",
+      "G135"
+    ],
+    "gejala_names": [
+      "Serbuk/part kecil di housing",
+      "Suara aneh",
+      "Getaran"
+    ]
+  },
+  {
+    "id": "K97",
+    "bagian": "CVT",
+    "kerusakan": "Oil contamination CVT",
+    "gejala_codes": [
+      "G054",
+      "G176",
+      "G633"
+    ],
+    "gejala_names": [
+      "Bau tidak sedap",
+      "Getaran tidak biasa",
+      "Tarikan tak stabil"
+    ]
+  },
+  {
+    "id": "K98",
+    "bagian": "CVT",
+    "kerusakan": "Temperature overheating",
+    "gejala_codes": [
+      "G042",
+      "G427",
+      "G614"
+    ],
+    "gejala_names": [
+      "Bau gosong kuat",
+      "RPM tidak stabil",
+      "Tarikan drop"
+    ]
+  },
+  {
+    "id": "K99",
+    "bagian": "CVT",
+    "kerusakan": "Sliding block wear",
+    "gejala_codes": [
+      "G562",
+      "G637"
+    ],
+    "gejala_names": [
+      "Suara deselerasi tinggi",
+      "Tarikan tidak halus"
+    ]
+  },
+  {
+    "id": "K100",
+    "bagian": "CVT",
+    "kerusakan": "Variator face crack",
+    "gejala_codes": [
+      "G591",
+      "G614",
+      "G135"
+    ],
+    "gejala_names": [
+      "Suara retak/pecah",
+      "Tarikan drop",
+      "Getaran"
+    ]
+  },
+  {
+    "id": "K02",
+    "bagian": "MESIN",
+    "kerusakan": "Pembakaran tidak sempurna",
+    "gejala_codes": [
+      "G306",
+      "G664",
+      "G032",
+      "G027",
+      "G333",
+      "G189",
+      "G635"
+    ],
+    "gejala_names": [
+      "Mesin brebet",
+      "Tenaga turun",
+      "BBM boros",
+      "Asap gelap",
+      "Mesin panas",
+      "Idle kasar",
+      "Tarikan tersendat"
+    ]
+  },
+  {
+    "id": "K21",
+    "bagian": "MESIN",
+    "kerusakan": "Kompresi bocor",
+    "gejala_codes": [
+      "G664",
+      "G607",
+      "G334",
+      "G032",
+      "G189"
+    ],
+    "gejala_names": [
+      "Tenaga turun",
+      "Sulit start",
+      "Mesin pincang",
+      "BBM boros",
+      "Idle kasar"
+    ]
+  },
+  {
+    "id": "K22",
+    "bagian": "MESIN",
+    "kerusakan": "Ring piston aus",
+    "gejala_codes": [
+      "G030",
+      "G375",
+      "G664",
+      "G333",
+      "G032"
+    ],
+    "gejala_names": [
+      "Asap putih",
+      "Oli berkurang",
+      "Tenaga turun",
+      "Mesin panas",
+      "BBM boros"
+    ]
+  },
+  {
+    "id": "K29",
+    "bagian": "MESIN",
+    "kerusakan": "Setelan klep salah",
+    "gejala_codes": [
+      "G313",
+      "G664",
+      "G607",
+      "G084"
+    ],
+    "gejala_names": [
+      "Mesin kasar",
+      "Tenaga turun",
+      "Sulit start",
+      "Bunyi klep"
+    ]
+  },
+  {
+    "id": "K113",
+    "bagian": "MESIN",
+    "kerusakan": "Busi kotor/aus",
+    "gejala_codes": [
+      "G605",
+      "G306",
+      "G637",
+      "G032"
+    ],
+    "gejala_names": [
+      "Sulit hidup pagi hari",
+      "Mesin brebet",
+      "Tarikan tidak halus",
+      "BBM boros"
+    ]
+  },
+  {
+    "id": "K114",
+    "bagian": "MESIN",
+    "kerusakan": "Filter udara tersumbat",
+    "gejala_codes": [
+      "G612",
+      "G316",
+      "G066",
+      "G402"
+    ],
+    "gejala_names": [
+      "Tarikan berat",
+      "Mesin kurang bertenaga",
+      "Brebet saat gas dibuka",
+      "Performa turun"
+    ]
+  },
+  {
+    "id": "K115",
+    "bagian": "MESIN",
+    "kerusakan": "Overheat mesin (pelumasan/pendinginan)",
+    "gejala_codes": [
+      "G311",
+      "G402",
+      "G053",
+      "G242"
+    ],
+    "gejala_names": [
+      "Mesin cepat panas",
+      "Performa turun",
+      "Bau panas/terbakar",
+      "Kipas radiator sering menyala"
+    ]
+  },
+  {
+    "id": "K122",
+    "bagian": "MESIN",
+    "kerusakan": "Klep bocor/setelan klep tidak tepat",
+    "gejala_codes": [
+      "G254",
+      "G337",
+      "G616",
+      "G321"
+    ],
+    "gejala_names": [
+      "Kompresi berkurang",
+      "Mesin sulit hidup",
+      "Tarikan kurang bertenaga",
+      "Mesin mati mendadak"
+    ]
+  },
+  {
+    "id": "K123",
+    "bagian": "MESIN",
+    "kerusakan": "Oli mesin kurang atau kotor",
+    "gejala_codes": [
+      "G339",
+      "G402",
+      "G589",
+      "G147"
+    ],
+    "gejala_names": [
+      "Mesin terasa kasar",
+      "Performa turun",
+      "Suara mesin lebih keras",
+      "Getaran mesin meningkat"
+    ]
+  },
+  {
+    "id": "K137",
+    "bagian": "MESIN",
+    "kerusakan": "Kompresi turun",
+    "gejala_codes": [
+      "G337",
+      "G614",
+      "G146",
+      "G376"
+    ],
+    "gejala_names": [
+      "Mesin sulit hidup",
+      "Tarikan drop",
+      "Getaran mesin",
+      "Oli boros"
+    ]
+  },
+  {
+    "id": "K144",
+    "bagian": "MESIN",
+    "kerusakan": "Piston ring aus",
+    "gejala_codes": [
+      "G256",
+      "G664",
+      "G031",
+      "G311"
+    ],
+    "gejala_names": [
+      "Kompresi turun",
+      "Tenaga turun",
+      "Asap putih keluar",
+      "Mesin cepat panas"
+    ]
+  },
+  {
+    "id": "K211",
+    "bagian": "MESIN",
+    "kerusakan": "Bandul kruk as tidak seimbang",
+    "gejala_codes": [
+      "G144",
+      "G167",
+      "G312",
+      "G482"
+    ],
+    "gejala_names": [
+      "Getaran kuat saat idle",
+      "Getaran saat speed rendah",
+      "Mesin goyah",
+      "Sensasi gemetar pada stang"
+    ]
+  },
+  {
+    "id": "K212",
+    "bagian": "MESIN",
+    "kerusakan": "Engine mounting aus",
+    "gejala_codes": [
+      "G139",
+      "G340",
+      "G145"
+    ],
+    "gejala_names": [
+      "Getaran di stang saat mesin hidup",
+      "Mesin terasa longgar di rangka",
+      "Getaran makin kuat di rpm rendah"
+    ]
+  },
+  {
+    "id": "K213",
+    "bagian": "MESIN",
+    "kerusakan": "Ban/velg tidak seimbang",
+    "gejala_codes": [
+      "G169",
+      "G483",
+      "G128"
+    ],
+    "gejala_names": [
+      "Getaran saat speed tinggi",
+      "Sensasi goyang di setang",
+      "Gejala getaran hilang setelah balancing"
+    ]
+  },
+  {
+    "id": "K223",
+    "bagian": "MESIN",
+    "kerusakan": "Kebocoran gasket kepala silinder",
+    "gejala_codes": [
+      "G378",
+      "G664",
+      "G506"
+    ],
+    "gejala_names": [
+      "Overheat",
+      "Tenaga turun",
+      "Smoke keluar"
+    ]
+  },
+  {
+    "id": "K224",
+    "bagian": "MESIN",
+    "kerusakan": "Rantai timing melar",
+    "gejala_codes": [
+      "G594",
+      "G691",
+      "G149"
+    ],
+    "gejala_names": [
+      "Suara “rattling”",
+      "Vibrasi mesin",
+      "Getaran naik saat rpm menengah"
+    ]
+  },
+  {
+    "id": "K230",
+    "bagian": "MESIN",
+    "kerusakan": "Kompresi mesin rendah",
+    "gejala_codes": [
+      "G601",
+      "G662",
+      "G108"
+    ],
+    "gejala_names": [
+      "Sulit dihidupkan",
+      "Tenaga mesin menurun",
+      "Efisiensi pembakaran sangat rendah"
+    ]
+  },
+  {
+    "id": "K238",
+    "bagian": "MESIN",
+    "kerusakan": "Keausan piston",
+    "gejala_codes": [
+      "G082",
+      "G664",
+      "G132"
+    ],
+    "gejala_names": [
+      "Bunyi kasar saat idle",
+      "Tenaga turun",
+      "Gesekan berlebih"
+    ]
+  },
+  {
+    "id": "K239",
+    "bagian": "MESIN",
+    "kerusakan": "Keausan mekanisme katup",
+    "gejala_codes": [
+      "G083",
+      "G103",
+      "G679"
+    ],
+    "gejala_names": [
+      "Bunyi ketukan",
+      "ECU mendeteksi misfire",
+      "Timing katup tidak presisi"
+    ]
+  },
+  {
+    "id": "K240",
+    "bagian": "MESIN",
+    "kerusakan": "Kebocoran crankcase",
+    "gejala_codes": [
+      "G049",
+      "G230",
+      "G649"
+    ],
+    "gejala_names": [
+      "Bau oli",
+      "Kehilangan oli",
+      "Tekanan crankcase abnormal"
+    ]
+  },
+  {
+    "id": "K244",
+    "bagian": "MESIN",
+    "kerusakan": "Bantalan poros engkol aus",
+    "gejala_codes": [
+      "G159",
+      "G225",
+      "G460"
+    ],
+    "gejala_names": [
+      "Getaran saat RPM naik",
+      "Kebisingan tinggi",
+      "Risiko kerusakan total mesin"
+    ]
+  },
+  {
+    "id": "K245",
+    "bagian": "MESIN",
+    "kerusakan": "Keausan camshaft",
+    "gejala_codes": [
+      "G680",
+      "G658",
+      "G489"
+    ],
+    "gejala_names": [
+      "Timing katup tidak stabil",
+      "Tenaga fluktuatif",
+      "Sinkronisasi katup terganggu"
+    ]
+  },
+  {
+    "id": "K249",
+    "bagian": "MESIN",
+    "kerusakan": "Endapan lumpur oli",
+    "gejala_codes": [
+      "G384",
+      "G587",
+      "G470"
+    ],
+    "gejala_names": [
+      "Pelumasan buruk",
+      "Suara mesin kasar",
+      "Saluran oli tersumbat"
+    ]
+  },
+  {
+    "id": "K250",
+    "bagian": "MESIN",
+    "kerusakan": "Tensioner rantai cam gagal",
+    "gejala_codes": [
+      "G563",
+      "G402",
+      "G678"
+    ],
+    "gejala_names": [
+      "Suara gemeretak",
+      "Performa turun",
+      "Timing cam tidak stabil"
+    ]
+  },
+  {
+    "id": "K258",
+    "bagian": "MESIN",
+    "kerusakan": "Radiator tersumbat",
+    "gejala_codes": [
+      "G600",
+      "G402",
+      "G392"
+    ],
+    "gejala_names": [
+      "Suhu tinggi terus",
+      "Performa turun",
+      "Pendinginan tidak efektif"
+    ]
+  },
+  {
+    "id": "K259",
+    "bagian": "MESIN",
+    "kerusakan": "Dinding silinder tergores",
+    "gejala_codes": [
+      "G029",
+      "G659",
+      "G255"
+    ],
+    "gejala_names": [
+      "Asap knalpot",
+      "Tenaga hilang",
+      "Kompresi bocor"
+    ]
+  },
+  {
+    "id": "K263",
+    "bagian": "MESIN",
+    "kerusakan": "Baut kepala silinder kendor",
+    "gejala_codes": [
+      "G256",
+      "G664",
+      "G456"
+    ],
+    "gejala_names": [
+      "Kompresi turun",
+      "Tenaga turun",
+      "Risiko gasket rusak"
+    ]
+  },
+  {
+    "id": "K264",
+    "bagian": "MESIN",
+    "kerusakan": "Rocker arm aus",
+    "gejala_codes": [
+      "G079",
+      "G401",
+      "G130"
+    ],
+    "gejala_names": [
+      "Bunyi di RPM tinggi",
+      "Performa tidak rata",
+      "Gerak katup terganggu"
+    ]
+  },
+  {
+    "id": "K270",
+    "bagian": "MESIN",
+    "kerusakan": "Kebocoran intake manifold",
+    "gejala_codes": [
+      "G194",
+      "G664",
+      "G229"
+    ],
+    "gejala_names": [
+      "Idle tidak rata",
+      "Tenaga turun",
+      "Kebocoran vakum"
+    ]
+  },
+  {
+    "id": "K274",
+    "bagian": "MESIN",
+    "kerusakan": "Dudukan katup aus",
+    "gejala_codes": [
+      "G255",
+      "G402",
+      "G223"
+    ],
+    "gejala_names": [
+      "Kompresi bocor",
+      "Performa turun",
+      "Katup tidak menutup rapat"
+    ]
+  },
+  {
+    "id": "K277",
+    "bagian": "MESIN",
+    "kerusakan": "Air masuk ke silinder",
+    "gejala_codes": [
+      "G346",
+      "G344",
+      "G465"
+    ],
+    "gejala_names": [
+      "Misfire saat dingin",
+      "Mesin tidak stabil",
+      "Risiko water hammer"
+    ]
+  },
+  {
+    "id": "K278",
+    "bagian": "MESIN",
+    "kerusakan": "Tekanan crankcase tidak seimbang",
+    "gejala_codes": [
+      "G228",
+      "G472",
+      "G495"
+    ],
+    "gejala_names": [
+      "Kebocoran oli",
+      "Seal rusak",
+      "Sistem ventilasi gagal"
+    ]
+  },
+  {
+    "id": "K281",
+    "bagian": "MESIN",
+    "kerusakan": "Harmonic balancer rusak",
+    "gejala_codes": [
+      "G179",
+      "G253",
+      "G435"
+    ],
+    "gejala_names": [
+      "Getaran tidak normal",
+      "Komponen cepat aus",
+      "Redaman getaran gagal"
+    ]
+  },
+  {
+    "id": "K283",
+    "bagian": "MESIN",
+    "kerusakan": "Sensor ECT rusak",
+    "gejala_codes": [
+      "G202",
+      "G105",
+      "G391"
+    ],
+    "gejala_names": [
+      "Indikator panas salah",
+      "ECU salah kontrol",
+      "Pendinginan tidak akurat"
+    ]
+  },
+  {
+    "id": "K285",
+    "bagian": "MESIN",
+    "kerusakan": "Kabel gas tidak presisi",
+    "gejala_codes": [
+      "G125",
+      "G265",
+      "G487"
+    ],
+    "gejala_names": [
+      "Gas seret",
+      "Kontrol gas buruk",
+      "Setelan mekanis salah"
+    ]
+  },
+  {
+    "id": "K287",
+    "bagian": "MESIN",
+    "kerusakan": "Jalur udara tersumbat",
+    "gejala_codes": [
+      "G091",
+      "G189",
+      "G385"
+    ],
+    "gejala_names": [
+      "Campuran kaya",
+      "Idle kasar",
+      "Pembakaran tidak efisien"
+    ]
+  },
+  {
+    "id": "K290",
+    "bagian": "MESIN",
+    "kerusakan": "Sirkulasi oli lambat",
+    "gejala_codes": [
+      "G462",
+      "G224",
+      "G653"
+    ],
+    "gejala_names": [
+      "Risiko panas berlebih",
+      "Keausan meningkat",
+      "Tekanan oli rendah"
+    ]
+  },
+  {
+    "id": "K292",
+    "bagian": "MESIN",
+    "kerusakan": "Karbon menumpuk di katup",
+    "gejala_codes": [
+      "G189",
+      "G109",
+      "G021"
+    ],
+    "gejala_names": [
+      "Idle kasar",
+      "Efisiensi turun",
+      "Aliran udara terganggu"
+    ]
+  },
+  {
+    "id": "K293",
+    "bagian": "MESIN",
+    "kerusakan": "Katup macet",
+    "gejala_codes": [
+      "G345",
+      "G334",
+      "G131"
+    ],
+    "gejala_names": [
+      "Misfire",
+      "Mesin pincang",
+      "Gerak katup terhambat"
+    ]
+  },
+  {
+    "id": "K294",
+    "bagian": "MESIN",
+    "kerusakan": "Pulley aksesoris tidak sejajar",
+    "gejala_codes": [
+      "G069",
+      "G135",
+      "G055"
+    ],
+    "gejala_names": [
+      "Bunyi abnormal",
+      "Getaran",
+      "Beban tidak seimbang"
+    ]
+  },
+  {
+    "id": "K295",
+    "bagian": "MESIN",
+    "kerusakan": "Endplay poros engkol berlebih",
+    "gejala_codes": [
+      "G138",
+      "G458",
+      "G682"
+    ],
+    "gejala_names": [
+      "Getaran dan bunyi",
+      "Risiko kerusakan berat",
+      "Toleransi mekanis terlampaui"
+    ]
+  },
+  {
+    "id": "K310",
+    "bagian": "MESIN",
+    "kerusakan": "Gangguan limiter putaran mesin",
+    "gejala_codes": [
+      "G426",
+      "G400",
+      "G494"
+    ],
+    "gejala_names": [
+      "RPM terputus",
+      "Performa terhambat",
+      "Sistem proteksi aktif"
+    ]
+  },
+  {
+    "id": "K03",
+    "bagian": "PENGAPIAN",
+    "kerusakan": "Busi lemah",
+    "gejala_codes": [
+      "G607",
+      "G334",
+      "G664",
+      "G032",
+      "G146",
+      "G025",
+      "G065"
+    ],
+    "gejala_names": [
+      "Sulit start",
+      "Mesin pincang",
+      "Tenaga turun",
+      "BBM boros",
+      "Getaran mesin",
+      "Api busi kecil",
+      "Brebet rpm rendah"
+    ]
+  },
+  {
+    "id": "K08",
+    "bagian": "PENGAPIAN",
+    "kerusakan": "Koil rusak",
+    "gejala_codes": [
+      "G321",
+      "G603",
+      "G659",
+      "G064",
+      "G024",
+      "G094"
+    ],
+    "gejala_names": [
+      "Mesin mati mendadak",
+      "Sulit hidup lagi",
+      "Tenaga hilang",
+      "Brebet",
+      "Api busi hilang",
+      "Check engine"
+    ]
+  },
+  {
+    "id": "K12",
+    "bagian": "PENGAPIAN",
+    "kerusakan": "CDI rusak",
+    "gejala_codes": [
+      "G319",
+      "G666",
+      "G528",
+      "G342",
+      "G064",
+      "G659"
+    ],
+    "gejala_names": [
+      "Mesin mati",
+      "Tidak ada api",
+      "Starter normal",
+      "Mesin tidak hidup",
+      "Brebet",
+      "Tenaga hilang"
+    ]
+  },
+  {
+    "id": "K13",
+    "bagian": "PENGAPIAN",
+    "kerusakan": "Pulser rusak",
+    "gejala_codes": [
+      "G319",
+      "G527",
+      "G673",
+      "G425",
+      "G302"
+    ],
+    "gejala_names": [
+      "Mesin mati",
+      "Starter mutar",
+      "Tidak hidup",
+      "RPM nol",
+      "Mati saat panas"
+    ]
+  },
+  {
+    "id": "K154",
+    "bagian": "PENGAPIAN",
+    "kerusakan": "Sensor TPS error",
+    "gejala_codes": [
+      "G126",
+      "G308",
+      "G094",
+      "G427"
+    ],
+    "gejala_names": [
+      "Gas terasa ngempos",
+      "Mesin brebet saat gas",
+      "Check engine",
+      "RPM tidak stabil"
+    ]
+  },
+  {
+    "id": "K155",
+    "bagian": "PENGAPIAN",
+    "kerusakan": "Sensor MAP error",
+    "gejala_codes": [
+      "G094",
+      "G638",
+      "G341",
+      "G033"
+    ],
+    "gejala_names": [
+      "Check engine",
+      "Tarikan tidak konsisten",
+      "Mesin tersendat",
+      "BBM lebih boros"
+    ]
+  },
+  {
+    "id": "K225",
+    "bagian": "PENGAPIAN",
+    "kerusakan": "Saklar pengapian rusak",
+    "gejala_codes": [
+      "G672",
+      "G668"
+    ],
+    "gejala_names": [
+      "Tidak bisa start",
+      "Tidak ada respons kelistrikan"
+    ]
+  },
+  {
+    "id": "K226",
+    "bagian": "PENGAPIAN",
+    "kerusakan": "Koil pengapian bermasalah (intermiten)",
+    "gejala_codes": [
+      "G328",
+      "G327"
+    ],
+    "gejala_names": [
+      "Mesin misfire",
+      "Mesin mati tiba-tiba"
+    ]
+  },
+  {
+    "id": "K04",
+    "bagian": "KELISTRIKAN",
+    "kerusakan": "Aki lemah",
+    "gejala_codes": [
+      "G515",
+      "G284",
+      "G247",
+      "G337",
+      "G643",
+      "G201"
+    ],
+    "gejala_names": [
+      "Starter berat",
+      "Lampu redup",
+      "Klakson lemah",
+      "Mesin sulit hidup",
+      "Tegangan drop",
+      "Indikator mati"
+    ]
+  },
+  {
+    "id": "K09",
+    "bagian": "KELISTRIKAN",
+    "kerusakan": "Kiprok rusak",
+    "gejala_codes": [
+      "G009",
+      "G291",
+      "G644",
+      "G284",
+      "G008",
+      "G526"
+    ],
+    "gejala_names": [
+      "Aki tekor",
+      "Lampu sering putus",
+      "Tegangan naik turun",
+      "Lampu redup",
+      "Aki panas",
+      "Starter lemah"
+    ]
+  },
+  {
+    "id": "K11",
+    "bagian": "KELISTRIKAN",
+    "kerusakan": "Spul rusak",
+    "gejala_codes": [
+      "G279",
+      "G006",
+      "G319",
+      "G526",
+      "G645",
+      "G201"
+    ],
+    "gejala_names": [
+      "Lampu mati",
+      "Aki drop",
+      "Mesin mati",
+      "Starter lemah",
+      "Tegangan tidak stabil",
+      "Indikator mati"
+    ]
+  },
+  {
+    "id": "K27",
+    "bagian": "KELISTRIKAN",
+    "kerusakan": "Kabel massa lepas",
+    "gejala_codes": [
+      "G319",
+      "G522",
+      "G279",
+      "G117"
+    ],
+    "gejala_names": [
+      "Mesin mati",
+      "Starter gagal",
+      "Lampu mati",
+      "Error acak"
+    ]
+  },
+  {
+    "id": "K106",
+    "bagian": "KELISTRIKAN",
+    "kerusakan": "Aki lemah/soak",
+    "gejala_codes": [
+      "G521",
+      "G284",
+      "G248",
+      "G606"
+    ],
+    "gejala_names": [
+      "Starter elektrik tidak berfungsi",
+      "Lampu redup",
+      "Klakson lemah atau tidak berbunyi",
+      "Sulit menyalakan motor listrik"
+    ]
+  },
+  {
+    "id": "K107",
+    "bagian": "KELISTRIKAN",
+    "kerusakan": "Kiprok/Regulator rusak",
+    "gejala_codes": [
+      "G004",
+      "G291",
+      "G645",
+      "G276"
+    ],
+    "gejala_names": [
+      "Aki cepat tekor",
+      "Lampu sering putus",
+      "Tegangan tidak stabil",
+      "Lampu depan redup"
+    ]
+  },
+  {
+    "id": "K108",
+    "bagian": "KELISTRIKAN",
+    "kerusakan": "Spul gagal isi aki",
+    "gejala_codes": [
+      "G010",
+      "G532",
+      "G283",
+      "G647"
+    ],
+    "gejala_names": [
+      "Aki tidak terisi saat jalan",
+      "Starter susah dinyalakan",
+      "Lampu padam saat mesin hidup",
+      "Tegangan turun setelah idle"
+    ]
+  },
+  {
+    "id": "K109",
+    "bagian": "KELISTRIKAN",
+    "kerusakan": "Kabel kelistrikan aus",
+    "gejala_codes": [
+      "G290",
+      "G295",
+      "G249",
+      "G221"
+    ],
+    "gejala_names": [
+      "Lampu sein tidak berkedip",
+      "Lampu utama mati",
+      "Klakson tidak berfungsi",
+      "Kabel terlihat terbakar atau retak"
+    ]
+  },
+  {
+    "id": "K110",
+    "bagian": "KELISTRIKAN",
+    "kerusakan": "Flasher sein bermasalah",
+    "gejala_codes": [
+      "G290",
+      "G479",
+      "G475",
+      "G476"
+    ],
+    "gejala_names": [
+      "Lampu sein tidak berkedip",
+      "Sein mati",
+      "Sein berkedip cepat",
+      "Sein berkedip tidak konsisten"
+    ]
+  },
+  {
+    "id": "K130",
+    "bagian": "KELISTRIKAN",
+    "kerusakan": "Fuse putus",
+    "gejala_codes": [
+      "G474",
+      "G057",
+      "G409"
+    ],
+    "gejala_names": [
+      "Sebagian lampu tidak berfungsi",
+      "Beberapa sistem mati saat hidup",
+      "Perlu cek panel fuse"
+    ]
+  },
+  {
+    "id": "K136",
+    "bagian": "KELISTRIKAN",
+    "kerusakan": "Indikator dashboard rusak",
+    "gejala_codes": [
+      "G209",
+      "G610",
+      "G273"
+    ],
+    "gejala_names": [
+      "Indikator tidak menyala",
+      "Tak ada bacaan speed/BBM",
+      "Lampu check engine tidak muncul"
+    ]
+  },
+  {
+    "id": "K141",
+    "bagian": "KELISTRIKAN",
+    "kerusakan": "Kabel ground putus",
+    "gejala_codes": [
+      "G531",
+      "G284",
+      "G485"
+    ],
+    "gejala_names": [
+      "Starter susah",
+      "Lampu redup",
+      "Sensor tak stabil"
+    ]
+  },
+  {
+    "id": "K146",
+    "bagian": "KELISTRIKAN",
+    "kerusakan": "CDI connector kendor",
+    "gejala_codes": [
+      "G300",
+      "G324",
+      "G516"
+    ],
+    "gejala_names": [
+      "Loss spark",
+      "Mesin mati saat jalan",
+      "Starter berputar normal"
+    ]
+  },
+  {
+    "id": "K147",
+    "bagian": "KELISTRIKAN",
+    "kerusakan": "Relay starter bermasalah",
+    "gejala_codes": [
+      "G537",
+      "G250"
+    ],
+    "gejala_names": [
+      "Starter tidak respon",
+      "Knalpot tanpa api"
+    ]
+  },
+  {
+    "id": "K156",
+    "bagian": "KELISTRIKAN",
+    "kerusakan": "Aki lemah/soak",
+    "gejala_codes": [
+      "G519",
+      "G284",
+      "G247",
+      "G337"
+    ],
+    "gejala_names": [
+      "Starter elektrik susah",
+      "Lampu redup",
+      "Klakson lemah",
+      "Mesin sulit hidup"
+    ]
+  },
+  {
+    "id": "K157",
+    "bagian": "KELISTRIKAN",
+    "kerusakan": "Kiprok/Regulator rusak",
+    "gejala_codes": [
+      "G004",
+      "G291",
+      "G645"
+    ],
+    "gejala_names": [
+      "Aki cepat tekor",
+      "Lampu sering putus",
+      "Tegangan tidak stabil"
+    ]
+  },
+  {
+    "id": "K158",
+    "bagian": "KELISTRIKAN",
+    "kerusakan": "Spul bermasalah",
+    "gejala_codes": [
+      "G677",
+      "G281",
+      "G643"
+    ],
+    "gejala_names": [
+      "Tidak terisi saat jalan",
+      "Lampu mati saat hidup mesin",
+      "Tegangan drop"
+    ]
+  },
+  {
+    "id": "K159",
+    "bagian": "KELISTRIKAN",
+    "kerusakan": "Kabel listrik aus",
+    "gejala_codes": [
+      "G290",
+      "G280",
+      "G508"
+    ],
+    "gejala_names": [
+      "Lampu sein tidak berkedip",
+      "Lampu mati acak",
+      "Speedometer mati"
+    ]
+  },
+  {
+    "id": "K160",
+    "bagian": "KELISTRIKAN",
+    "kerusakan": "Flasher sein rusak",
+    "gejala_codes": [
+      "G480",
+      "G475",
+      "G277"
+    ],
+    "gejala_names": [
+      "Sein tak berkedip",
+      "Sein berkedip cepat",
+      "Lampu indikator sein tak normal"
+    ]
+  },
+  {
+    "id": "K173",
+    "bagian": "KELISTRIKAN",
+    "kerusakan": "Panel indikator rusak",
+    "gejala_codes": [
+      "G507",
+      "G272"
+    ],
+    "gejala_names": [
+      "Speed/BBM tak tampil",
+      "Lampu check engine tak normal"
+    ]
+  },
+  {
+    "id": "K176",
+    "bagian": "KELISTRIKAN",
+    "kerusakan": "Fuse putus",
+    "gejala_codes": [
+      "G473",
+      "G382"
+    ],
+    "gejala_names": [
+      "Sebagian lampu mati",
+      "Panel padam"
+    ]
+  },
+  {
+    "id": "K180",
+    "bagian": "KELISTRIKAN",
+    "kerusakan": "Wiring harness korosi",
+    "gejala_codes": [
+      "G278",
+      "G197",
+      "G523"
+    ],
+    "gejala_names": [
+      "Lampu kedap-kedip",
+      "Indicator tak stabil",
+      "Starter kadang gagal"
+    ]
+  },
+  {
+    "id": "K215",
+    "bagian": "KELISTRIKAN",
+    "kerusakan": "Aki tekor akibat generator lemah",
+    "gejala_codes": [
+      "G285",
+      "G515",
+      "G323"
+    ],
+    "gejala_names": [
+      "Lampu redup saat jalan",
+      "Starter berat",
+      "Mesin mati saat idle"
+    ]
+  },
+  {
+    "id": "K216",
+    "bagian": "KELISTRIKAN",
+    "kerusakan": "Ground connection lemah",
+    "gejala_codes": [
+      "G524",
+      "G278",
+      "G485"
+    ],
+    "gejala_names": [
+      "Starter kadang tak nyala",
+      "Lampu kedap-kedip",
+      "Sensor tak stabil"
+    ]
+  },
+  {
+    "id": "K217",
+    "bagian": "KELISTRIKAN",
+    "kerusakan": "Regulator overcharge",
+    "gejala_codes": [
+      "G292",
+      "G003",
+      "G646"
+    ],
+    "gejala_names": [
+      "Lampu terlalu terang",
+      "Aki cepat panas",
+      "Tegangan tidak stabil saat engine idle"
+    ]
+  },
+  {
+    "id": "K218",
+    "bagian": "KELISTRIKAN",
+    "kerusakan": "Kabel kelistrikan putus/aus",
+    "gejala_codes": [
+      "G669",
+      "G056",
+      "G535"
+    ],
+    "gejala_names": [
+      "Tidak ada respons lampu sein",
+      "Beberapa lampu padam",
+      "Starter terkadang gagal"
+    ]
+  },
+  {
+    "id": "K219",
+    "bagian": "KELISTRIKAN",
+    "kerusakan": "Fuse terbakar",
+    "gejala_codes": [
+      "G294",
+      "G381",
+      "G410"
+    ],
+    "gejala_names": [
+      "Lampu tertentu mati",
+      "Panel indikator padam",
+      "Perlu pemeriksaan panel fuse"
+    ]
+  },
+  {
+    "id": "K246",
+    "bagian": "KELISTRIKAN",
+    "kerusakan": "Terminal aki berkarat",
+    "gejala_codes": [
+      "G643",
+      "G607",
+      "G183"
+    ],
+    "gejala_names": [
+      "Tegangan drop",
+      "Sulit start",
+      "Hambatan listrik tinggi"
+    ]
+  },
+  {
+    "id": "K247",
+    "bagian": "KELISTRIKAN",
+    "kerusakan": "Kabel massa (ground) putus",
+    "gejala_codes": [
+      "G096",
+      "G270",
+      "G180"
+    ],
+    "gejala_names": [
+      "Daya hilang sesaat",
+      "Lampu berkedip",
+      "Grounding sistem buruk"
+    ]
+  },
+  {
+    "id": "K256",
+    "bagian": "KELISTRIKAN",
+    "kerusakan": "Saklar lampu utama rusak",
+    "gejala_codes": [
+      "G282",
+      "G696",
+      "G262"
+    ],
+    "gejala_names": [
+      "Lampu mati sesaat",
+      "Visibilitas rendah",
+      "Kontak listrik tidak stabil"
+    ]
+  },
+  {
+    "id": "K260",
+    "bagian": "KELISTRIKAN",
+    "kerusakan": "Kabel pengapian longgar",
+    "gejala_codes": [
+      "G321",
+      "G015",
+      "G398"
+    ],
+    "gejala_names": [
+      "Mesin mati mendadak",
+      "Akselerasi tidak stabil",
+      "Percikan api tidak konsisten"
+    ]
+  },
+  {
+    "id": "K265",
+    "bagian": "KELISTRIKAN",
+    "kerusakan": "Sabuk alternator selip",
+    "gejala_codes": [
+      "G395",
+      "G284",
+      "G645"
+    ],
+    "gejala_names": [
+      "Pengisian gagal",
+      "Lampu redup",
+      "Tegangan tidak stabil"
+    ]
+  },
+  {
+    "id": "K266",
+    "bagian": "KELISTRIKAN",
+    "kerusakan": "Sensor suhu oli rusak",
+    "gejala_codes": [
+      "G205",
+      "G319",
+      "G104"
+    ],
+    "gejala_names": [
+      "Indikator suhu salah",
+      "Mesin mati",
+      "ECU salah interpretasi"
+    ]
+  },
+  {
+    "id": "K271",
+    "bagian": "KELISTRIKAN",
+    "kerusakan": "Saklar kontak berkarat",
+    "gejala_codes": [
+      "G536",
+      "G601",
+      "G182"
+    ],
+    "gejala_names": [
+      "Starter tidak konsisten",
+      "Sulit dihidupkan",
+      "Hambatan listrik"
+    ]
+  },
+  {
+    "id": "K275",
+    "bagian": "KELISTRIKAN",
+    "kerusakan": "Kabel klakson rusak",
+    "gejala_codes": [
+      "G581",
+      "G408",
+      "G181"
+    ],
+    "gejala_names": [
+      "Suara klakson lemah",
+      "Peringatan tidak efektif",
+      "Hambatan arus"
+    ]
+  },
+  {
+    "id": "K276",
+    "bagian": "KELISTRIKAN",
+    "kerusakan": "Dimmer dashboard rusak",
+    "gejala_codes": [
+      "G293",
+      "G123",
+      "G266"
+    ],
+    "gejala_names": [
+      "Lampu terlalu terang/redup",
+      "Gangguan visibilitas",
+      "Kontrol pencahayaan gagal"
+    ]
+  },
+  {
+    "id": "K280",
+    "bagian": "KELISTRIKAN",
+    "kerusakan": "Pengisian aki berlebih",
+    "gejala_codes": [
+      "G007",
+      "G238",
+      "G438"
+    ],
+    "gejala_names": [
+      "Aki menggelembung",
+      "Kerusakan aki",
+      "Regulator gagal"
+    ]
+  },
+  {
+    "id": "K288",
+    "bagian": "KELISTRIKAN",
+    "kerusakan": "Terminal aki berkarat",
+    "gejala_codes": [
+      "G643",
+      "G607",
+      "G261"
+    ],
+    "gejala_names": [
+      "Tegangan drop",
+      "Sulit start",
+      "Kontak buruk"
+    ]
+  },
+  {
+    "id": "K291",
+    "bagian": "KELISTRIKAN",
+    "kerusakan": "Dioda alternator rusak",
+    "gejala_codes": [
+      "G395",
+      "G009",
+      "G026"
+    ],
+    "gejala_names": [
+      "Pengisian gagal",
+      "Aki tekor",
+      "Arus AC bocor"
+    ]
+  },
+  {
+    "id": "K297",
+    "bagian": "KELISTRIKAN",
+    "kerusakan": "Relay peringatan rusak",
+    "gejala_codes": [
+      "G407",
+      "G210",
+      "G492"
+    ],
+    "gejala_names": [
+      "Peringatan palsu",
+      "Informasi salah",
+      "Sistem indikator gagal"
+    ]
+  },
+  {
+    "id": "K309",
+    "bagian": "KELISTRIKAN",
+    "kerusakan": "Soket aksesoris rusak",
+    "gejala_codes": [
+      "G098",
+      "G016",
+      "G263"
+    ],
+    "gejala_names": [
+      "Daya turun",
+      "Aksesori mati",
+      "Kontak longgar"
+    ]
+  },
+  {
+    "id": "K05",
+    "bagian": "PENDINGINAN",
+    "kerusakan": "Overheat ringan",
+    "gejala_codes": [
+      "G311",
+      "G244",
+      "G664",
+      "G052",
+      "G190",
+      "G305"
+    ],
+    "gejala_names": [
+      "Mesin cepat panas",
+      "Kipas sering nyala",
+      "Tenaga turun",
+      "Bau panas",
+      "Idle naik",
+      "Mesin berat"
+    ]
+  },
+  {
+    "id": "K23",
+    "bagian": "PENDINGINAN",
+    "kerusakan": "Radiator bocor",
+    "gejala_codes": [
+      "G001",
+      "G333",
+      "G378",
+      "G039",
+      "G204"
+    ],
+    "gejala_names": [
+      "Air berkurang",
+      "Mesin panas",
+      "Overheat",
+      "Bau coolant",
+      "Indikator suhu"
+    ]
+  },
+  {
+    "id": "K24",
+    "bagian": "PENDINGINAN",
+    "kerusakan": "Thermostat macet",
+    "gejala_codes": [
+      "G318",
+      "G378",
+      "G664",
+      "G188"
+    ],
+    "gejala_names": [
+      "Mesin lama dingin",
+      "Overheat",
+      "Tenaga turun",
+      "Idle aneh"
+    ]
+  },
+  {
+    "id": "K116",
+    "bagian": "PENDINGINAN",
+    "kerusakan": "Kipas radiator rusak",
+    "gejala_codes": [
+      "G310",
+      "G364",
+      "G405",
+      "G207"
+    ],
+    "gejala_names": [
+      "Mesin cepat mencapai suhu tinggi",
+      "Motor terasa overheat",
+      "Performa turun setelah jalan lama",
+      "Indikator suhu tinggi menyala"
+    ]
+  },
+  {
+    "id": "K117",
+    "bagian": "PENDINGINAN",
+    "kerusakan": "Radiator tersumbat",
+    "gejala_codes": [
+      "G311",
+      "G019",
+      "G392",
+      "G597"
+    ],
+    "gejala_names": [
+      "Mesin cepat panas",
+      "Aliran air kurang",
+      "Pendinginan tidak efektif",
+      "Suhu mesin naik cepat"
+    ]
+  },
+  {
+    "id": "K132",
+    "bagian": "PENDINGINAN",
+    "kerusakan": "Selang radiator bocor",
+    "gejala_codes": [
+      "G090",
+      "G311",
+      "G208"
+    ],
+    "gejala_names": [
+      "Cairan pendingin turun",
+      "Mesin cepat panas",
+      "Indikator suhu tinggi tiba-tiba"
+    ]
+  },
+  {
+    "id": "K140",
+    "bagian": "PENDINGINAN",
+    "kerusakan": "Fan switch rusak",
+    "gejala_codes": [
+      "G243",
+      "G311"
+    ],
+    "gejala_names": [
+      "Kipas radiator tak menyala saat panas",
+      "Mesin cepat panas"
+    ]
+  },
+  {
+    "id": "K145",
+    "bagian": "PENDINGINAN",
+    "kerusakan": "Radiator fan resistor rusak",
+    "gejala_codes": [
+      "G241",
+      "G332",
+      "G599"
+    ],
+    "gejala_names": [
+      "Kipas putus nyala",
+      "Mesin overheat",
+      "Suhu naik saat lama macet"
+    ]
+  },
+  {
+    "id": "K150",
+    "bagian": "PENDINGINAN",
+    "kerusakan": "Coolant leak",
+    "gejala_codes": [
+      "G089",
+      "G311",
+      "G404"
+    ],
+    "gejala_names": [
+      "Cairan pendingin berkurang",
+      "Mesin cepat panas",
+      "Performa turun saat idle"
+    ]
+  },
+  {
+    "id": "K165",
+    "bagian": "PENDINGINAN",
+    "kerusakan": "Kipas radiator mati",
+    "gejala_codes": [
+      "G311",
+      "G403",
+      "G206"
+    ],
+    "gejala_names": [
+      "Mesin cepat panas",
+      "Performa turun lama jalan",
+      "Indikator suhu tinggi hidup"
+    ]
+  },
+  {
+    "id": "K166",
+    "bagian": "PENDINGINAN",
+    "kerusakan": "Radiator tersumbat",
+    "gejala_codes": [
+      "G311",
+      "G389",
+      "G595"
+    ],
+    "gejala_names": [
+      "Mesin cepat panas",
+      "Pendinginan kurang efektif",
+      "Suhu mesin cepat naik"
+    ]
+  },
+  {
+    "id": "K231",
+    "bagian": "PENDINGINAN",
+    "kerusakan": "Kebocoran cairan pendingin",
+    "gejala_codes": [
+      "G697",
+      "G311",
+      "G461"
+    ],
+    "gejala_names": [
+      "Volume coolant menurun",
+      "Mesin cepat panas",
+      "Risiko overheat berulang"
+    ]
+  },
+  {
+    "id": "K232",
+    "bagian": "PENDINGINAN",
+    "kerusakan": "Resistor kipas radiator rusak",
+    "gejala_codes": [
+      "G245",
+      "G332",
+      "G390"
+    ],
+    "gejala_names": [
+      "Kipas tidak bekerja sesuai suhu",
+      "Mesin overheat",
+      "Pendinginan tidak adaptif"
+    ]
+  },
+  {
+    "id": "K233",
+    "bagian": "PENDINGINAN",
+    "kerusakan": "Termostat macet terbuka",
+    "gejala_codes": [
+      "G338",
+      "G107",
+      "G032"
+    ],
+    "gejala_names": [
+      "Mesin sulit mencapai suhu kerja",
+      "Efisiensi mesin buruk",
+      "BBM boros"
+    ]
+  },
+  {
+    "id": "K234",
+    "bagian": "PENDINGINAN",
+    "kerusakan": "Termostat macet tertutup",
+    "gejala_codes": [
+      "G598",
+      "G378",
+      "G459"
+    ],
+    "gejala_names": [
+      "Suhu naik drastis",
+      "Overheat",
+      "Risiko kerusakan head silinder"
+    ]
+  },
+  {
+    "id": "K07",
+    "bagian": "BAHAN BAKAR",
+    "kerusakan": "Injector kotor",
+    "gejala_codes": [
+      "G306",
+      "G189",
+      "G319",
+      "G635",
+      "G609",
+      "G032"
+    ],
+    "gejala_names": [
+      "Mesin brebet",
+      "Idle kasar",
+      "Mesin mati",
+      "Tarikan tersendat",
+      "Susah start",
+      "BBM boros"
+    ]
+  },
+  {
+    "id": "K14",
+    "bagian": "BAHAN BAKAR",
+    "kerusakan": "Fuel pump lemah",
+    "gejala_codes": [
+      "G330",
+      "G301",
+      "G100",
+      "G609",
+      "G648"
+    ],
+    "gejala_names": [
+      "Mesin nyendat",
+      "Mati rpm tinggi",
+      "Dengung tangki",
+      "Susah start",
+      "Tekanan bensin turun"
+    ]
+  },
+  {
+    "id": "K28",
+    "bagian": "BAHAN BAKAR",
+    "kerusakan": "Filter bensin kotor",
+    "gejala_codes": [
+      "G635",
+      "G319",
+      "G189",
+      "G032"
+    ],
+    "gejala_names": [
+      "Tarikan tersendat",
+      "Mesin mati",
+      "Idle kasar",
+      "BBM boros"
+    ]
+  },
+  {
+    "id": "K118",
+    "bagian": "BAHAN BAKAR",
+    "kerusakan": "Karburator kotor",
+    "gejala_codes": [
+      "G323",
+      "G449",
+      "G067",
+      "G354"
+    ],
+    "gejala_names": [
+      "Mesin mati saat idle",
+      "Respon gas lambat",
+      "Brebet saat jalan pelan",
+      "Motor sulit hidup"
+    ]
+  },
+  {
+    "id": "K119",
+    "bagian": "BAHAN BAKAR",
+    "kerusakan": "Filter bahan bakar tersumbat",
+    "gejala_codes": [
+      "G641",
+      "G306",
+      "G663",
+      "G032"
+    ],
+    "gejala_names": [
+      "Tarikan tidak stabil",
+      "Mesin brebet",
+      "Tenaga motor drop",
+      "BBM boros"
+    ]
+  },
+  {
+    "id": "K121",
+    "bagian": "BAHAN BAKAR",
+    "kerusakan": "Pompa bensin kurang tekanan",
+    "gejala_codes": [
+      "G635",
+      "G315",
+      "G320",
+      "G530"
+    ],
+    "gejala_names": [
+      "Tarikan tersendat",
+      "Mesin kehilangan tenaga",
+      "Mesin mati di rpm tinggi",
+      "Starter sering hidup namun mati"
+    ]
+  },
+  {
+    "id": "K131",
+    "bagian": "BAHAN BAKAR",
+    "kerusakan": "Injector kotor",
+    "gejala_codes": [
+      "G307",
+      "G635",
+      "G094",
+      "G399"
+    ],
+    "gejala_names": [
+      "Mesin brebet pada kecepatan rendah",
+      "Tarikan tersendat",
+      "Check engine",
+      "Perfoma drop"
+    ]
+  },
+  {
+    "id": "K133",
+    "bagian": "BAHAN BAKAR",
+    "kerusakan": "Bahan bakar kualitas buruk",
+    "gejala_codes": [
+      "G251",
+      "G635",
+      "G258"
+    ],
+    "gejala_names": [
+      "Knocking mesin",
+      "Tarikan tersendat",
+      "Konsumsi BBM naik"
+    ]
+  },
+  {
+    "id": "K138",
+    "bagian": "BAHAN BAKAR",
+    "kerusakan": "Sensor TPS bermasalah",
+    "gejala_codes": [
+      "G331",
+      "G450",
+      "G635"
+    ],
+    "gejala_names": [
+      "Mesin nyendat saat gas penuh",
+      "Respon lambat",
+      "Tarikan tersendat"
+    ]
+  },
+  {
+    "id": "K139",
+    "bagian": "BAHAN BAKAR",
+    "kerusakan": "Sensor CKP bermasalah",
+    "gejala_codes": [
+      "G351",
+      "G520",
+      "G343"
+    ],
+    "gejala_names": [
+      "Motor mati mendadak",
+      "Starter elektrik tak berfungsi",
+      "Mesin tidak menyala"
+    ]
+  },
+  {
+    "id": "K143",
+    "bagian": "BAHAN BAKAR",
+    "kerusakan": "Karburator setelan salah",
+    "gejala_codes": [
+      "G195",
+      "G306",
+      "G637"
+    ],
+    "gejala_names": [
+      "Idle tidak stabil",
+      "Mesin brebet",
+      "Tarikan tidak halus"
+    ]
+  },
+  {
+    "id": "K148",
+    "bagian": "BAHAN BAKAR",
+    "kerusakan": "Fuel filter kotor",
+    "gejala_codes": [
+      "G635",
+      "G315"
+    ],
+    "gejala_names": [
+      "Tarikan tersendat",
+      "Mesin kehilangan tenaga"
+    ]
+  },
+  {
+    "id": "K151",
+    "bagian": "BAHAN BAKAR",
+    "kerusakan": "Fuel pump lemah",
+    "gejala_codes": [
+      "G320",
+      "G635",
+      "G555",
+      "G321"
+    ],
+    "gejala_names": [
+      "Mesin mati di rpm tinggi",
+      "Tarikan tersendat",
+      "Suara dengung dari tangki sebelum mati",
+      "Mesin mati mendadak"
+    ]
+  },
+  {
+    "id": "K152",
+    "bagian": "BAHAN BAKAR",
+    "kerusakan": "Injector kotor",
+    "gejala_codes": [
+      "G637",
+      "G306",
+      "G094",
+      "G608"
+    ],
+    "gejala_names": [
+      "Tarikan tidak halus",
+      "Mesin brebet",
+      "Check engine",
+      "Susah hidup pagi"
+    ]
+  },
+  {
+    "id": "K153",
+    "bagian": "BAHAN BAKAR",
+    "kerusakan": "Filter bensin kotor",
+    "gejala_codes": [
+      "G642",
+      "G315",
+      "G355"
+    ],
+    "gejala_names": [
+      "Tarikan turun mendadak",
+      "Mesin kehilangan tenaga",
+      "Motor sulit stabil"
+    ]
+  },
+  {
+    "id": "K167",
+    "bagian": "BAHAN BAKAR",
+    "kerusakan": "Karburator kotor",
+    "gejala_codes": [
+      "G323",
+      "G449",
+      "G336"
+    ],
+    "gejala_names": [
+      "Mesin mati saat idle",
+      "Respon gas lambat",
+      "Mesin sering mati"
+    ]
+  },
+  {
+    "id": "K168",
+    "bagian": "BAHAN BAKAR",
+    "kerusakan": "Karburator setelan salah",
+    "gejala_codes": [
+      "G193",
+      "G306",
+      "G637"
+    ],
+    "gejala_names": [
+      "Idle tak stabil",
+      "Mesin brebet",
+      "Tarikan tidak halus"
+    ]
+  },
+  {
+    "id": "K169",
+    "bagian": "BAHAN BAKAR",
+    "kerusakan": "Bahan bakar terkontaminasi",
+    "gejala_codes": [
+      "G252",
+      "G627",
+      "G032"
+    ],
+    "gejala_names": [
+      "Knocking mesin saat jalan",
+      "Tarikan naik turun",
+      "BBM boros"
+    ]
+  },
+  {
+    "id": "K175",
+    "bagian": "BAHAN BAKAR",
+    "kerusakan": "Fuel filter kotor",
+    "gejala_codes": [
+      "G635",
+      "G315"
+    ],
+    "gejala_names": [
+      "Tarikan tersendat",
+      "Mesin kehilangan tenaga"
+    ]
+  },
+  {
+    "id": "K182",
+    "bagian": "BAHAN BAKAR",
+    "kerusakan": "Fuel pump relay rusak",
+    "gejala_codes": [
+      "G368",
+      "G529"
+    ],
+    "gejala_names": [
+      "Motor tidak start",
+      "Starter nyala, mesin mati"
+    ]
+  },
+  {
+    "id": "K214",
+    "bagian": "BAHAN BAKAR",
+    "kerusakan": "Fuel quality buruk",
+    "gejala_codes": [
+      "G306",
+      "G637",
+      "G259"
+    ],
+    "gejala_names": [
+      "Mesin brebet",
+      "Tarikan tidak halus",
+      "Konsumsi BBM naik tiba-tiba"
+    ]
+  },
+  {
+    "id": "K227",
+    "bagian": "BAHAN BAKAR",
+    "kerusakan": "Spuyer utama karburator tersumbat",
+    "gejala_codes": [
+      "G325",
+      "G638"
+    ],
+    "gejala_names": [
+      "Mesin mati saat throttle",
+      "Tarikan tidak konsisten"
+    ]
+  },
+  {
+    "id": "K228",
+    "bagian": "BAHAN BAKAR",
+    "kerusakan": "Saluran kran bahan bakar tersumbat",
+    "gejala_codes": [
+      "G020",
+      "G314",
+      "G322"
+    ],
+    "gejala_names": [
+      "Aliran bahan bakar terhenti",
+      "Mesin kehabisan bahan bakar",
+      "Mesin mati mendadak akibat suplai terputus"
+    ]
+  },
+  {
+    "id": "K229",
+    "bagian": "BAHAN BAKAR",
+    "kerusakan": "Bahan bakar tercampur air",
+    "gejala_codes": [
+      "G335",
+      "G321",
+      "G386"
+    ],
+    "gejala_names": [
+      "Mesin pincang (misfire)",
+      "Mesin mati mendadak",
+      "Pembakaran tidak stabil"
+    ]
+  },
+  {
+    "id": "K241",
+    "bagian": "BAHAN BAKAR",
+    "kerusakan": "Sensor posisi throttle error",
+    "gejala_codes": [
+      "G195",
+      "G453",
+      "G211"
+    ],
+    "gejala_names": [
+      "Idle tidak stabil",
+      "Respons gas buruk",
+      "Input ECU tidak akurat"
+    ]
+  },
+  {
+    "id": "K242",
+    "bagian": "BAHAN BAKAR",
+    "kerusakan": "Injektor bermasalah intermiten",
+    "gejala_codes": [
+      "G347",
+      "G094",
+      "G102"
+    ],
+    "gejala_names": [
+      "Misfire saat kecepatan konstan",
+      "Check engine",
+      "Distribusi bahan bakar tidak merata"
+    ]
+  },
+  {
+    "id": "K243",
+    "bagian": "BAHAN BAKAR",
+    "kerusakan": "Tekanan bahan bakar menurun",
+    "gejala_codes": [
+      "G660",
+      "G341",
+      "G413"
+    ],
+    "gejala_names": [
+      "Tenaga hilang di kecepatan tinggi",
+      "Mesin tersendat",
+      "Pompa/regulator lemah"
+    ]
+  },
+  {
+    "id": "K10",
+    "bagian": "PELUMASAN",
+    "kerusakan": "Oli jelek",
+    "gejala_codes": [
+      "G313",
+      "G379",
+      "G135",
+      "G402",
+      "G049",
+      "G305"
+    ],
+    "gejala_names": [
+      "Mesin kasar",
+      "Panas berlebih",
+      "Getaran",
+      "Performa turun",
+      "Bau oli",
+      "Mesin berat"
+    ]
+  },
+  {
+    "id": "K15",
+    "bagian": "SENSOR",
+    "kerusakan": "CKP rusak",
+    "gejala_codes": [
+      "G319",
+      "G116",
+      "G425",
+      "G671",
+      "G094"
+    ],
+    "gejala_names": [
+      "Mesin mati",
+      "Error ECU",
+      "RPM nol",
+      "Tidak bisa hidup",
+      "Check engine"
+    ]
+  },
+  {
+    "id": "K16",
+    "bagian": "SENSOR",
+    "kerusakan": "TPS rusak",
+    "gejala_codes": [
+      "G124",
+      "G637",
+      "G421",
+      "G064",
+      "G094"
+    ],
+    "gejala_names": [
+      "Gas delay",
+      "Tarikan tidak halus",
+      "RPM loncat",
+      "Brebet",
+      "Check engine"
+    ]
+  },
+  {
+    "id": "K17",
+    "bagian": "SENSOR",
+    "kerusakan": "ISC rusak",
+    "gejala_codes": [
+      "G191",
+      "G323",
+      "G427",
+      "G032",
+      "G313"
+    ],
+    "gejala_names": [
+      "Idle naik turun",
+      "Mesin mati saat idle",
+      "RPM tidak stabil",
+      "BBM boros",
+      "Mesin kasar"
+    ]
+  },
+  {
+    "id": "K30",
+    "bagian": "SENSOR",
+    "kerusakan": "O2 sensor rusak",
+    "gejala_codes": [
+      "G032",
+      "G094",
+      "G664",
+      "G189"
+    ],
+    "gejala_names": [
+      "BBM boros",
+      "Check engine",
+      "Tenaga turun",
+      "Idle kasar"
+    ]
+  },
+  {
+    "id": "K19",
+    "bagian": "REM",
+    "kerusakan": "Master rem bocor",
+    "gejala_codes": [
+      "G440",
+      "G377",
+      "G683",
+      "G445",
+      "G063"
+    ],
+    "gejala_names": [
+      "Rem blong",
+      "Oli rem turun",
+      "Tuas dalam",
+      "Rem lemah",
+      "Bocor"
+    ]
+  },
+  {
+    "id": "K20",
+    "bagian": "REM",
+    "kerusakan": "Kaliper macet",
+    "gejala_codes": [
+      "G468",
+      "G348",
+      "G080",
+      "G380",
+      "G032"
+    ],
+    "gejala_names": [
+      "Roda seret",
+      "Motor berat",
+      "Bunyi gesek",
+      "Panas roda",
+      "BBM boros"
+    ]
+  },
+  {
+    "id": "K251",
+    "bagian": "REM",
+    "kerusakan": "Minyak rem rendah",
+    "gejala_codes": [
+      "G685",
+      "G097",
+      "G463"
+    ],
+    "gejala_names": [
+      "Tuas rem lembek",
+      "Daya pengereman menurun",
+      "Risiko rem blong"
+    ]
+  },
+  {
+    "id": "K252",
+    "bagian": "REM",
+    "kerusakan": "Seal master silinder bocor",
+    "gejala_codes": [
+      "G686",
+      "G231",
+      "G226"
+    ],
+    "gejala_names": [
+      "Tuas rem sangat lunak",
+      "Kehilangan tekanan",
+      "Kebocoran hidrolik"
+    ]
+  },
+  {
+    "id": "K253",
+    "bagian": "REM",
+    "kerusakan": "Sensor ABS rusak",
+    "gejala_codes": [
+      "G269",
+      "G216",
+      "G491"
+    ],
+    "gejala_names": [
+      "Lampu ABS menyala",
+      "Jarak pengereman bertambah",
+      "Sistem ABS nonaktif"
+    ]
+  },
+  {
+    "id": "K254",
+    "bagian": "REM",
+    "kerusakan": "Kampas rem terkontaminasi",
+    "gejala_codes": [
+      "G075",
+      "G095",
+      "G134"
+    ],
+    "gejala_names": [
+      "Bunyi decit",
+      "Daya cengkeram rendah",
+      "Gesekan tidak optimal"
+    ]
+  },
+  {
+    "id": "K255",
+    "bagian": "REM",
+    "kerusakan": "Udara di sistem rem",
+    "gejala_codes": [
+      "G383",
+      "G451",
+      "G493"
+    ],
+    "gejala_names": [
+      "Pedal lembek",
+      "Respon rem lambat",
+      "Sistem perlu bleeding"
+    ]
+  },
+  {
+    "id": "K267",
+    "bagian": "REM",
+    "kerusakan": "Cakram rem melengkung",
+    "gejala_codes": [
+      "G166",
+      "G267",
+      "G411"
+    ],
+    "gejala_names": [
+      "Getaran saat pengereman",
+      "Kontrol rem buruk",
+      "Permukaan cakram tidak rata"
+    ]
+  },
+  {
+    "id": "K268",
+    "bagian": "REM",
+    "kerusakan": "Piston kaliper macet",
+    "gejala_codes": [
+      "G467",
+      "G133",
+      "G222"
+    ],
+    "gejala_names": [
+      "Roda panas",
+      "Gesekan terus-menerus",
+      "Kampas cepat aus"
+    ]
+  },
+  {
+    "id": "K272",
+    "bagian": "REM",
+    "kerusakan": "Rem parkir tidak berfungsi",
+    "gejala_codes": [
+      "G234",
+      "G457",
+      "G303"
+    ],
+    "gejala_names": [
+      "Kendaraan bergerak saat parkir",
+      "Risiko kecelakaan",
+      "Mekanisme rem parkir gagal"
+    ]
+  },
+  {
+    "id": "K282",
+    "bagian": "REM",
+    "kerusakan": "Master silinder aus",
+    "gejala_codes": [
+      "G441",
+      "G393",
+      "G651"
+    ],
+    "gejala_names": [
+      "Rem fading",
+      "Pengereman melemah",
+      "Tekanan hidrolik bocor"
+    ]
+  },
+  {
+    "id": "K286",
+    "bagian": "REM",
+    "kerusakan": "Minyak rem terkontaminasi",
+    "gejala_codes": [
+      "G684",
+      "G450",
+      "G681"
+    ],
+    "gejala_names": [
+      "Tuas lembek",
+      "Respon lambat",
+      "Titik didih menurun"
+    ]
+  },
+  {
+    "id": "K296",
+    "bagian": "REM",
+    "kerusakan": "Kampas rem aus",
+    "gejala_codes": [
+      "G075",
+      "G394",
+      "G239"
+    ],
+    "gejala_names": [
+      "Bunyi decit",
+      "Pengereman menurun",
+      "Ketebalan di bawah batas"
+    ]
+  },
+  {
+    "id": "K308",
+    "bagian": "REM",
+    "kerusakan": "Seal master silinder aus",
+    "gejala_codes": [
+      "G441",
+      "G652",
+      "G227"
+    ],
+    "gejala_names": [
+      "Rem fading",
+      "Tekanan hilang",
+      "Kebocoran internal"
+    ]
+  },
+  {
+    "id": "K25",
+    "bagian": "KNALPOT",
+    "kerusakan": "Knalpot tersumbat",
+    "gejala_codes": [
+      "G612",
+      "G542",
+      "G333",
+      "G028",
+      "G032"
+    ],
+    "gejala_names": [
+      "Tarikan berat",
+      "Suara aneh",
+      "Mesin panas",
+      "Asap hitam",
+      "BBM boros"
+    ]
+  },
+  {
+    "id": "K101",
+    "bagian": "REM DEPAN",
+    "kerusakan": "Kampas rem depan aus",
+    "gejala_codes": [
+      "G446",
+      "G215",
+      "G070",
+      "G688",
+      "G165"
+    ],
+    "gejala_names": [
+      "Rem terasa kurang pakem",
+      "Jarak berhenti lebih panjang",
+      "Bunyi berdecit saat rem",
+      "Tuas terasa dalam",
+      "Getaran saat mengerem"
+    ]
+  },
+  {
+    "id": "K104",
+    "bagian": "REM DEPAN",
+    "kerusakan": "Kaliper macet",
+    "gejala_codes": [
+      "G447",
+      "G567",
+      "G362",
+      "G222"
+    ],
+    "gejala_names": [
+      "Rem terasa seret",
+      "Suara gesekan logam saat mengerem",
+      "Motor terasa berat saat rem",
+      "Kampas cepat aus"
+    ]
+  },
+  {
+    "id": "K134",
+    "bagian": "REM DEPAN",
+    "kerusakan": "Cakram aus/bergelombang",
+    "gejala_codes": [
+      "G166",
+      "G584",
+      "G442",
+      "G218"
+    ],
+    "gejala_names": [
+      "Getaran saat pengereman",
+      "Suara mengi saat rem",
+      "Rem kurang efektif",
+      "Jarak pengereman naik"
+    ]
+  },
+  {
+    "id": "K102",
+    "bagian": "REM BELAKANG",
+    "kerusakan": "Kampas rem belakang aus",
+    "gejala_codes": [
+      "G086",
+      "G439",
+      "G466",
+      "G217"
+    ],
+    "gejala_names": [
+      "Bunyi mendecit saat rem",
+      "Rem belakang terasa keras",
+      "Roda belakang terasa tertahan",
+      "Jarak pengereman lebih jauh"
+    ]
+  },
+  {
+    "id": "K103",
+    "bagian": "REM BELAKANG",
+    "kerusakan": "Kabel rem belakang mulai aus",
+    "gejala_codes": [
+      "G687",
+      "G444",
+      "G451",
+      "G268"
+    ],
+    "gejala_names": [
+      "Tuas rem terasa keras",
+      "Rem kurang pakem meski ditekan",
+      "Respon rem lambat",
+      "Kotoran/karat pada kabel"
+    ]
+  },
+  {
+    "id": "K135",
+    "bagian": "REM BELAKANG",
+    "kerusakan": "Tromol aus",
+    "gejala_codes": [
+      "G074",
+      "G443",
+      "G166"
+    ],
+    "gejala_names": [
+      "Bunyi berisik tromol",
+      "Rem kurang pakem",
+      "Getaran saat pengereman"
+    ]
+  },
+  {
+    "id": "K105",
+    "bagian": "REM ABS",
+    "kerusakan": "Modul ABS bermasalah",
+    "gejala_codes": [
+      "G166",
+      "G073",
+      "G199",
+      "G448"
+    ],
+    "gejala_names": [
+      "Getaran saat pengereman",
+      "Bunyi berisik saat pengereman",
+      "Indikator ABS menyala terus",
+      "Rem terasa tidak mulus"
+    ]
+  },
+  {
+    "id": "K111",
+    "bagian": "LAMPU UTAMA",
+    "kerusakan": "Bohlam lampu depan pecah",
+    "gejala_codes": [
+      "G275",
+      "G387",
+      "G670",
+      "G289"
+    ],
+    "gejala_names": [
+      "Lampu depan mati",
+      "Pencahayaan gelap",
+      "Tidak ada respons saat switch",
+      "Lampu sein tetap normal"
+    ]
+  },
+  {
+    "id": "K112",
+    "bagian": "LAMPU REM",
+    "kerusakan": "Lampu rem mati",
+    "gejala_codes": [
+      "G288",
+      "G061",
+      "G203",
+      "G219"
+    ],
+    "gejala_names": [
+      "Lampu rem tidak menyala saat rem",
+      "Berkurang visibilitas belakang",
+      "Indikator rem tidak berkedip",
+      "Kabel lampu rem putus"
+    ]
+  },
+  {
+    "id": "K120",
+    "bagian": "SISTEM INJEKSI",
+    "kerusakan": "Sensor O2 bermasalah",
+    "gejala_codes": [
+      "G094",
+      "G638",
+      "G257",
+      "G111"
+    ],
+    "gejala_names": [
+      "Check engine",
+      "Tarikan tidak konsisten",
+      "Konsumsi BBM lebih boros",
+      "Emisi gas hitam keluar"
+    ]
+  },
+  {
+    "id": "K124",
+    "bagian": "SISTEM PENGAPIAN",
+    "kerusakan": "Koil pengapian lemah",
+    "gejala_codes": [
+      "G675",
+      "G356",
+      "G615",
+      "G326"
+    ],
+    "gejala_names": [
+      "Tidak keluar api sempurna",
+      "Motor susah nyala",
+      "Tarikan hilang",
+      "Mesin mati secara tiba-tiba"
+    ]
+  },
+  {
+    "id": "K125",
+    "bagian": "SISTEM PENGAPIAN",
+    "kerusakan": "CDI rusak",
+    "gejala_codes": [
+      "G518",
+      "G352",
+      "G306",
+      "G674"
+    ],
+    "gejala_names": [
+      "Starter elektrik normal",
+      "Motor matimendadak",
+      "Mesin brebet",
+      "Tidak keluar api busi"
+    ]
+  },
+  {
+    "id": "K126",
+    "bagian": "SISTEM PENGAPIAN",
+    "kerusakan": "Pulser sensor rusak",
+    "gejala_codes": [
+      "G302",
+      "G517",
+      "G667"
+    ],
+    "gejala_names": [
+      "Mati saat panas",
+      "Starter berputar tapi mesin tidak hidup",
+      "Tidak ada api ke busi"
+    ]
+  },
+  {
+    "id": "K127",
+    "bagian": "SISTEM PENDINGINAN",
+    "kerusakan": "Thermostat rusak",
+    "gejala_codes": [
+      "G311",
+      "G246",
+      "G404",
+      "G484"
+    ],
+    "gejala_names": [
+      "Mesin cepat panas",
+      "Kipas tidak menyala sesuai suhu",
+      "Performa turun saat idle",
+      "Sensor suhu tidak stabil"
+    ]
+  },
+  {
+    "id": "K128",
+    "bagian": "EXHAUST",
+    "kerusakan": "Knalpot tersumbat/korosi",
+    "gejala_codes": [
+      "G612",
+      "G586",
+      "G032",
+      "G596"
+    ],
+    "gejala_names": [
+      "Tarikan berat",
+      "Suara mesin berubah",
+      "BBM boros",
+      "Suhu mesin naik"
+    ]
+  },
+  {
+    "id": "K174",
+    "bagian": "EXHAUST",
+    "kerusakan": "Knalpot tersumbat/korosi",
+    "gejala_codes": [
+      "G612",
+      "G586",
+      "G311"
+    ],
+    "gejala_names": [
+      "Tarikan berat",
+      "Suara mesin berubah",
+      "Mesin cepat panas"
+    ]
+  },
+  {
+    "id": "K191",
+    "bagian": "EXHAUST",
+    "kerusakan": "Catalytic converter fail",
+    "gejala_codes": [
+      "G437",
+      "G539"
+    ],
+    "gejala_names": [
+      "Reduced performance",
+      "Strange exhaust noise"
+    ]
+  },
+  {
+    "id": "K237",
+    "bagian": "EXHAUST",
+    "kerusakan": "Catalytic converter menurun",
+    "gejala_codes": [
+      "G657",
+      "G582",
+      "G112"
+    ],
+    "gejala_names": [
+      "Tenaga berkurang",
+      "Suara knalpot abnormal",
+      "Emisi meningkat"
+    ]
+  },
+  {
+    "id": "K129",
+    "bagian": "LAMPU",
+    "kerusakan": "Wiring harness korslet",
+    "gejala_codes": [
+      "G278",
+      "G198",
+      "G525",
+      "G220"
+    ],
+    "gejala_names": [
+      "Lampu kedap-kedip",
+      "Indicator tidak stabil",
+      "Starter kadang tidak berfungsi",
+      "Kabel terlihat hangus"
+    ]
+  },
+  {
+    "id": "K142",
+    "bagian": "LAMPU",
+    "kerusakan": "Boel rem lamp stuck",
+    "gejala_codes": [
+      "G286",
+      "G304",
+      "G296"
+    ],
+    "gejala_names": [
+      "Lampu rem selalu menyala",
+      "Menyebabkan aki cepat tekor",
+      "Lampu utama meredup akibat beban"
+    ]
+  },
+  {
+    "id": "K149",
+    "bagian": "LAMPU",
+    "kerusakan": "Headlamp wiring rusak",
+    "gejala_codes": [
+      "G274",
+      "G088"
+    ],
+    "gejala_names": [
+      "Lampu depan kedip",
+      "Cahaya tidak stabil"
+    ]
+  },
+  {
+    "id": "K161",
+    "bagian": "LAMPU",
+    "kerusakan": "Bohlam depan pecah",
+    "gejala_codes": [
+      "G275",
+      "G387"
+    ],
+    "gejala_names": [
+      "Lampu depan mati",
+      "Pencahayaan gelap"
+    ]
+  },
+  {
+    "id": "K162",
+    "bagian": "LAMPU",
+    "kerusakan": "Lampu rem mati",
+    "gejala_codes": [
+      "G287",
+      "G694"
+    ],
+    "gejala_names": [
+      "Lampu rem tak menyala saat rem",
+      "Visibilitas belakang buruk"
+    ]
+  },
+  {
+    "id": "K220",
+    "bagian": "LAMPU",
+    "kerusakan": "Wiring lampu depan rusak",
+    "gejala_codes": [
+      "G274",
+      "G088"
+    ],
+    "gejala_names": [
+      "Lampu depan kedip",
+      "Cahaya tidak stabil"
+    ]
+  },
+  {
+    "id": "K221",
+    "bagian": "LAMPU",
+    "kerusakan": "Lampu sein wiring korosi",
+    "gejala_codes": [
+      "G481",
+      "G478"
+    ],
+    "gejala_names": [
+      "Sein tidak berkedip saat aktif",
+      "Sein berkedip tidak teratur"
+    ]
+  },
+  {
+    "id": "K222",
+    "bagian": "LAMPU",
+    "kerusakan": "Indikator kesalahan pada dashboard",
+    "gejala_codes": [
+      "G509",
+      "G200",
+      "G271"
+    ],
+    "gejala_names": [
+      "Speedometer tidak tampil",
+      "Indikator BBM tak tampil",
+      "Lampu check engine tak berfungsi"
+    ]
+  },
+  {
+    "id": "K257",
+    "bagian": "LAMPU",
+    "kerusakan": "Rumah lampu belakang retak",
+    "gejala_codes": [
+      "G270",
+      "G695",
+      "G002"
+    ],
+    "gejala_names": [
+      "Lampu berkedip",
+      "Visibilitas belakang rendah",
+      "Air masuk ke rumah lampu"
+    ]
+  },
+  {
+    "id": "K269",
+    "bagian": "LAMPU",
+    "kerusakan": "Relay sein rusak",
+    "gejala_codes": [
+      "G477",
+      "G214",
+      "G490"
+    ],
+    "gejala_names": [
+      "Sein berkedip tidak normal",
+      "Isyarat belok terganggu",
+      "Sirkuit kontrol rusak"
+    ]
+  },
+  {
+    "id": "K284",
+    "bagian": "LAMPU",
+    "kerusakan": "Polaritas LED terbalik",
+    "gejala_codes": [
+      "G270",
+      "G388",
+      "G212"
+    ],
+    "gejala_names": [
+      "Lampu berkedip",
+      "Pencahayaan tidak stabil",
+      "Instalasi tidak sesuai"
+    ]
+  },
+  {
+    "id": "K163",
+    "bagian": "ENGINE",
+    "kerusakan": "Busi kotor/aus",
+    "gejala_codes": [
+      "G306",
+      "G604",
+      "G617",
+      "G034"
+    ],
+    "gejala_names": [
+      "Mesin brebet",
+      "Sulit hidup pagi",
+      "Tarikan kurang responsif",
+      "BBM meningkat"
+    ]
+  },
+  {
+    "id": "K164",
+    "bagian": "ENGINE",
+    "kerusakan": "Filter udara tersumbat",
+    "gejala_codes": [
+      "G612",
+      "G316",
+      "G066"
+    ],
+    "gejala_names": [
+      "Tarikan berat",
+      "Mesin kurang bertenaga",
+      "Brebet saat gas dibuka"
+    ]
+  },
+  {
+    "id": "K170",
+    "bagian": "ENGINE",
+    "kerusakan": "Kompresi turun (ring piston)",
+    "gejala_codes": [
+      "G337",
+      "G614",
+      "G031"
+    ],
+    "gejala_names": [
+      "Mesin sulit hidup",
+      "Tarikan drop",
+      "Asap putih keluar"
+    ]
+  },
+  {
+    "id": "K171",
+    "bagian": "ENGINE",
+    "kerusakan": "Klep bocor/setelan salah",
+    "gejala_codes": [
+      "G327",
+      "G616",
+      "G602"
+    ],
+    "gejala_names": [
+      "Mesin mati tiba-tiba",
+      "Tarikan kurang bertenaga",
+      "Sulit hidup"
+    ]
+  },
+  {
+    "id": "K172",
+    "bagian": "ENGINE",
+    "kerusakan": "Oli mesin kurang",
+    "gejala_codes": [
+      "G313",
+      "G588",
+      "G402"
+    ],
+    "gejala_names": [
+      "Mesin kasar",
+      "Suara mesin keras",
+      "Performa turun"
+    ]
+  },
+  {
+    "id": "K177",
+    "bagian": "ENGINE",
+    "kerusakan": "Idling stalling",
+    "gejala_codes": [
+      "G329",
+      "G513"
+    ],
+    "gejala_names": [
+      "Mesin nyala lalu mati",
+      "Stalling saat berjalan"
+    ]
+  },
+  {
+    "id": "K178",
+    "bagian": "ENGINE",
+    "kerusakan": "Dirty spark plug",
+    "gejala_codes": [
+      "G306",
+      "G533",
+      "G402"
+    ],
+    "gejala_names": [
+      "Mesin brebet",
+      "Starter susah hidup",
+      "Performa turun"
+    ]
+  },
+  {
+    "id": "K181",
+    "bagian": "ENGINE",
+    "kerusakan": "Exhaust restriction",
+    "gejala_codes": [
+      "G585",
+      "G406"
+    ],
+    "gejala_names": [
+      "Suara mesin berat",
+      "Performance loss"
+    ]
+  },
+  {
+    "id": "K184",
+    "bagian": "ENGINE",
+    "kerusakan": "Overheat sensor trigger",
+    "gejala_codes": [
+      "G302",
+      "G656"
+    ],
+    "gejala_names": [
+      "Mati saat panas",
+      "Temperatur indicator menyala"
+    ]
+  },
+  {
+    "id": "K185",
+    "bagian": "ENGINE",
+    "kerusakan": "Valve train noise (tappet/klep)",
+    "gejala_codes": [
+      "G240",
+      "G541"
+    ],
+    "gejala_names": [
+      "Ketukan/knocking mesin",
+      "Suara abnormal"
+    ]
+  },
+  {
+    "id": "K187",
+    "bagian": "ENGINE",
+    "kerusakan": "Timing chain stretch",
+    "gejala_codes": [
+      "G434",
+      "G693"
+    ],
+    "gejala_names": [
+      "Rattling noise",
+      "Vibration tinggi"
+    ]
+  },
+  {
+    "id": "K190",
+    "bagian": "ENGINE",
+    "kerusakan": "Cylinder head gasket leak",
+    "gejala_codes": [
+      "G378",
+      "G299",
+      "G506"
+    ],
+    "gejala_names": [
+      "Overheat",
+      "Loss power",
+      "Smoke keluar"
+    ]
+  },
+  {
+    "id": "K192",
+    "bagian": "ENGINE",
+    "kerusakan": "Carburetor pilot jet blockage",
+    "gejala_codes": [
+      "G192",
+      "G186"
+    ],
+    "gejala_names": [
+      "Idle stall",
+      "Hard starting"
+    ]
+  },
+  {
+    "id": "K194",
+    "bagian": "ENGINE",
+    "kerusakan": "Air filter dirty",
+    "gejala_codes": [
+      "G414",
+      "G099"
+    ],
+    "gejala_names": [
+      "Poor throttle response",
+      "Decreased power"
+    ]
+  },
+  {
+    "id": "K197",
+    "bagian": "ENGINE",
+    "kerusakan": "Engine mounts loose",
+    "gejala_codes": [
+      "G692",
+      "G373"
+    ],
+    "gejala_names": [
+      "Vibration at speed",
+      "Noise meningkat"
+    ]
+  },
+  {
+    "id": "K201",
+    "bagian": "ENGINE",
+    "kerusakan": "Battery ground loose",
+    "gejala_codes": [
+      "G538",
+      "G297"
+    ],
+    "gejala_names": [
+      "Starter weak",
+      "Lights dim"
+    ]
+  },
+  {
+    "id": "K206",
+    "bagian": "ENGINE",
+    "kerusakan": "Exhaust gas leak",
+    "gejala_codes": [
+      "G372",
+      "G416"
+    ],
+    "gejala_names": [
+      "Noise abnormal",
+      "Power loss"
+    ]
+  },
+  {
+    "id": "K209",
+    "bagian": "ENGINE",
+    "kerusakan": "Low compression",
+    "gejala_codes": [
+      "G186",
+      "G416"
+    ],
+    "gejala_names": [
+      "Hard starting",
+      "Power loss"
+    ]
+  },
+  {
+    "id": "K179",
+    "bagian": "FUEL SYSTEM",
+    "kerusakan": "Vacuum leak",
+    "gejala_codes": [
+      "G193",
+      "G618"
+    ],
+    "gejala_names": [
+      "Idle tak stabil",
+      "Tarikan lambat"
+    ]
+  },
+  {
+    "id": "K186",
+    "bagian": "FUEL SYSTEM",
+    "kerusakan": "Main jet clog (karbu)",
+    "gejala_codes": [
+      "G325",
+      "G628"
+    ],
+    "gejala_names": [
+      "Mesin mati saat throttle",
+      "Tarikan suka mati"
+    ]
+  },
+  {
+    "id": "K189",
+    "bagian": "FUEL SYSTEM",
+    "kerusakan": "Throttle body clog",
+    "gejala_codes": [
+      "G514",
+      "G665"
+    ],
+    "gejala_names": [
+      "Stalling saat idle",
+      "Throttle hesitation"
+    ]
+  },
+  {
+    "id": "K196",
+    "bagian": "FUEL SYSTEM",
+    "kerusakan": "Fuel pressure dropout",
+    "gejala_codes": [
+      "G417",
+      "G510"
+    ],
+    "gejala_names": [
+      "Power loss at speed",
+      "Sputtering"
+    ]
+  },
+  {
+    "id": "K199",
+    "bagian": "FUEL SYSTEM",
+    "kerusakan": "High altitude tuning issue",
+    "gejala_codes": [
+      "G418",
+      "G187"
+    ],
+    "gejala_names": [
+      "Power loss uphill",
+      "Hesitation"
+    ]
+  },
+  {
+    "id": "K202",
+    "bagian": "FUEL SYSTEM",
+    "kerusakan": "Mixed fuel water",
+    "gejala_codes": [
+      "G345",
+      "G114"
+    ],
+    "gejala_names": [
+      "Misfire",
+      "Engine shutoff"
+    ]
+  },
+  {
+    "id": "K204",
+    "bagian": "FUEL SYSTEM",
+    "kerusakan": "Fuel petcock blockage",
+    "gejala_codes": [
+      "G370",
+      "G115"
+    ],
+    "gejala_names": [
+      "No fuel flow",
+      "Engine starve"
+    ]
+  },
+  {
+    "id": "K207",
+    "bagian": "FUEL SYSTEM",
+    "kerusakan": "Carburetor float issue",
+    "gejala_codes": [
+      "G121",
+      "G185"
+    ],
+    "gejala_names": [
+      "Fuel flooding",
+      "Hard start"
+    ]
+  },
+  {
+    "id": "K210",
+    "bagian": "FUEL SYSTEM",
+    "kerusakan": "Stale fuel",
+    "gejala_codes": [
+      "G185",
+      "G510"
+    ],
+    "gejala_names": [
+      "Hard start",
+      "Sputtering"
+    ]
+  },
+  {
+    "id": "K183",
+    "bagian": "SYSTEM",
+    "kerusakan": "ECU error",
+    "gejala_codes": [
+      "G094",
+      "G309",
+      "G452"
+    ],
+    "gejala_names": [
+      "Check engine",
+      "Mesin brebet tak jelas penyebab",
+      "Respon tak konsisten"
+    ]
+  },
+  {
+    "id": "K188",
+    "bagian": "ELECTRICAL",
+    "kerusakan": "Starter motor faulty",
+    "gejala_codes": [
+      "G534",
+      "G085"
+    ],
+    "gejala_names": [
+      "Starter tak respon",
+      "Bunyi klik saja"
+    ]
+  },
+  {
+    "id": "K193",
+    "bagian": "ELECTRICAL",
+    "kerusakan": "Alternator fail",
+    "gejala_codes": [
+      "G093",
+      "G297",
+      "G005"
+    ],
+    "gejala_names": [
+      "Charging failure",
+      "Lights dim",
+      "Aki discharge cepat"
+    ]
+  },
+  {
+    "id": "K195",
+    "bagian": "ELECTRICAL",
+    "kerusakan": "Voltage regulator fail",
+    "gejala_codes": [
+      "G120",
+      "G038"
+    ],
+    "gejala_names": [
+      "Flickering lights",
+      "Battery overcharge signs"
+    ]
+  },
+  {
+    "id": "K198",
+    "bagian": "ELECTRICAL",
+    "kerusakan": "Ignition switch fail",
+    "gejala_codes": [
+      "G371",
+      "G369"
+    ],
+    "gejala_names": [
+      "No start",
+      "No electrical response"
+    ]
+  },
+  {
+    "id": "K200",
+    "bagian": "ELECTRICAL",
+    "kerusakan": "Faulty gauge cluster",
+    "gejala_codes": [
+      "G119",
+      "G196"
+    ],
+    "gejala_names": [
+      "False readings",
+      "Indicator errors"
+    ]
+  },
+  {
+    "id": "K203",
+    "bagian": "ELECTRICAL",
+    "kerusakan": "Short circuit lights",
+    "gejala_codes": [
+      "G062",
+      "G298"
+    ],
+    "gejala_names": [
+      "Blown fuse",
+      "Lights off"
+    ]
+  },
+  {
+    "id": "K205",
+    "bagian": "ELECTRICAL",
+    "kerusakan": "ECU connector loose",
+    "gejala_codes": [
+      "G213",
+      "G113"
+    ],
+    "gejala_names": [
+      "Intermittent power loss",
+      "Engine hesitation"
+    ]
+  },
+  {
+    "id": "K208",
+    "bagian": "ELECTRICAL",
+    "kerusakan": "Ignition coil intermittent",
+    "gejala_codes": [
+      "G433",
+      "G345"
+    ],
+    "gejala_names": [
+      "Random cutoff",
+      "Misfire"
+    ]
+  },
+  {
+    "id": "K235",
+    "bagian": "SISTEM",
+    "kerusakan": "Konektor ECU longgar",
+    "gejala_codes": [
+      "G012",
+      "G661",
+      "G122"
+    ],
+    "gejala_names": [
+      "Akselerasi tersendat",
+      "Tenaga hilang sesaat",
+      "Gangguan sinyal kontrol"
+    ]
+  },
+  {
+    "id": "K236",
+    "bagian": "SISTEM",
+    "kerusakan": "Throttle body tersumbat",
+    "gejala_codes": [
+      "G323",
+      "G454",
+      "G023"
+    ],
+    "gejala_names": [
+      "Mesin mati saat idle",
+      "Respons gas lambat",
+      "Aliran udara tidak optimal"
+    ]
+  },
+  {
+    "id": "K248",
+    "bagian": "SISTEM BAHAN BAKAR",
+    "kerusakan": "Campuran terlalu miskin",
+    "gejala_codes": [
+      "G333",
+      "G453",
+      "G455"
+    ],
+    "gejala_names": [
+      "Mesin panas",
+      "Respons gas buruk",
+      "Risiko detonasi"
+    ]
+  },
+  {
+    "id": "K261",
+    "bagian": "SISTEM BAHAN BAKAR",
+    "kerusakan": "BBM oktan rendah",
+    "gejala_codes": [
+      "G251",
+      "G664",
+      "G101"
+    ],
+    "gejala_names": [
+      "Knocking mesin",
+      "Tenaga turun",
+      "Detonasi prematur"
+    ]
+  },
+  {
+    "id": "K262",
+    "bagian": "SISTEM BAHAN BAKAR",
+    "kerusakan": "Ventilasi tutup tangki tersumbat",
+    "gejala_codes": [
+      "G319",
+      "G654",
+      "G689"
+    ],
+    "gejala_names": [
+      "Mesin mati",
+      "Tekanan tangki abnormal",
+      "Vakum berlebih"
+    ]
+  },
+  {
+    "id": "K273",
+    "bagian": "SISTEM BAHAN BAKAR",
+    "kerusakan": "Hambatan saluran udara masuk",
+    "gejala_codes": [
+      "G664",
+      "G092",
+      "G022"
+    ],
+    "gejala_names": [
+      "Tenaga turun",
+      "Campuran tidak ideal",
+      "Aliran udara terhambat"
+    ]
+  },
+  {
+    "id": "K279",
+    "bagian": "SISTEM BAHAN BAKAR",
+    "kerusakan": "Katup surge pompa rusak",
+    "gejala_codes": [
+      "G018",
+      "G341",
+      "G655"
+    ],
+    "gejala_names": [
+      "Aliran BBM fluktuatif",
+      "Mesin tersendat",
+      "Tekanan tidak stabil"
+    ]
+  },
+  {
+    "id": "K289",
+    "bagian": "SISTEM BAHAN BAKAR",
+    "kerusakan": "Injektor kotor",
+    "gejala_codes": [
+      "G189",
+      "G094",
+      "G412"
+    ],
+    "gejala_names": [
+      "Idle kasar",
+      "Check engine",
+      "Pola semprot terganggu"
+    ]
+  },
+  {
+    "id": "K298",
+    "bagian": "BODI",
+    "kerusakan": "Baut/dudukan bumper longgar",
+    "gejala_codes": [
+      "G071",
+      "G118",
+      "G415"
+    ],
+    "gejala_names": [
+      "Bunyi bergetar",
+      "Estetika terganggu",
+      "Potensi lepas"
+    ]
+  },
+  {
+    "id": "K299",
+    "bagian": "RANGKA",
+    "kerusakan": "Cross member longgar",
+    "gejala_codes": [
+      "G153",
+      "G511",
+      "G540"
+    ],
+    "gejala_names": [
+      "Getaran rangka",
+      "Stabilitas menurun",
+      "Struktur melemah"
+    ]
+  },
+  {
+    "id": "K307",
+    "bagian": "RANGKA",
+    "kerusakan": "Retak akibat tegangan",
+    "gejala_codes": [
+      "G068",
+      "G464",
+      "G232"
+    ],
+    "gejala_names": [
+      "Bunyi",
+      "Risiko struktural",
+      "Kelelahan material"
+    ]
+  },
+  {
+    "id": "K300",
+    "bagian": "SUSPENSI",
+    "kerusakan": "Peredam kejut aus",
+    "gejala_codes": [
+      "G235",
+      "G237",
+      "G436"
+    ],
+    "gejala_names": [
+      "Kendaraan memantul",
+      "Kenyamanan buruk",
+      "Redaman tidak efektif"
+    ]
+  },
+  {
+    "id": "K306",
+    "bagian": "SUSPENSI",
+    "kerusakan": "Bushing aus",
+    "gejala_codes": [
+      "G068",
+      "G512",
+      "G110"
+    ],
+    "gejala_names": [
+      "Bunyi",
+      "Stabilitas turun",
+      "Elastisitas hilang"
+    ]
+  },
+  {
+    "id": "K301",
+    "bagian": "BAN",
+    "kerusakan": "Tekanan ban kurang",
+    "gejala_codes": [
+      "G184",
+      "G258",
+      "G260"
+    ],
+    "gejala_names": [
+      "Handling buruk",
+      "Konsumsi BBM naik",
+      "Kontak ban tidak optimal"
+    ]
+  },
+  {
+    "id": "K302",
+    "bagian": "BAN",
+    "kerusakan": "Keausan tidak merata",
+    "gejala_codes": [
+      "G135",
+      "G511",
+      "G017"
+    ],
+    "gejala_names": [
+      "Getaran",
+      "Stabilitas menurun",
+      "Alignment bermasalah"
+    ]
+  },
+  {
+    "id": "K303",
+    "bagian": "BAN",
+    "kerusakan": "Ban kempis",
+    "gejala_codes": [
+      "G233",
+      "G457",
+      "G650"
+    ],
+    "gejala_names": [
+      "Kendali buruk",
+      "Risiko kecelakaan",
+      "Tekanan ekstrem rendah"
+    ]
+  },
+  {
+    "id": "K304",
+    "bagian": "KEMUDI",
+    "kerusakan": "Tie rod longgar",
+    "gejala_codes": [
+      "G488",
+      "G264",
+      "G471"
+    ],
+    "gejala_names": [
+      "Setir goyang",
+      "Kontrol buruk",
+      "Sambungan aus"
+    ]
+  },
+  {
+    "id": "K305",
+    "bagian": "KEMUDI",
+    "kerusakan": "Garpu bengkok",
+    "gejala_codes": [
+      "G236",
+      "G184",
+      "G129"
+    ],
+    "gejala_names": [
+      "Kendaraan menarik ke satu sisi",
+      "Handling buruk",
+      "Geometri rusak"
+    ]
+  }
+]
