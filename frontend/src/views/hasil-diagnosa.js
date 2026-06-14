@@ -1,5 +1,6 @@
 import { getState, updateState, resetGejala } from '../lib/state.js';
 import { navigateTo } from '../router.js';
+import { apiClient } from '../api/client.js';
 
 /**
  * Renders the Hasil Diagnosa view.
@@ -14,40 +15,27 @@ export async function render(container) {
     return;
   }
 
-  // Load Penyebab & Saran database
-  const [penyebabSaranRes, categoriesRes] = await Promise.all([
-    fetch('/data/penyebab_saran.json').then(r => r.json()),
-    fetch('/data/kategori_sistem.json').then(r => r.json())
-  ]);
-
-  const categoryDef = categoriesRes.find(c => c.id === state.selectedCategoryId);
+  // Get category definitions to display the name
+  let categoryName = "Sistem Motor";
+  try {
+    const categories = await apiClient.getKategori();
+    const categoryDef = categories.find(c => c.id === state.selectedCategoryId);
+    if (categoryDef) categoryName = categoryDef.nama;
+  } catch (e) {
+    console.warn("Could not fetch categories for display name", e);
+  }
 
   // If there are no rules matching >= 30% (empty state)
-  if (!results.top) {
-    renderEmptyState(container, categoryDef);
+  if (results.status === 'no_match' || !results.top) {
+    renderEmptyState(container, categoryName);
     return;
   }
 
-  // Helper to fetch penyebab & saran with fallback
-  const getPenyebabSaran = (damageName) => {
-    return penyebabSaranRes[damageName] || {
-      penyebab: [
-        "Terjadi keausan atau penurunan performa fisik pada komponen terkait.",
-        "Kondisi pemakaian motor dalam jangka panjang tanpa perawatan berkala."
-      ],
-      saran: [
-        { teks: "Periksakan kondisi fisik komponen terkait ke bengkel resmi atau kepercayaan Anda.", level: "segera_diperiksa" },
-        { teks: "Lakukan pembersihan dan penyetelan ulang pada komponen.", level: "bisa_dipantau" }
-      ],
-      reviewed: false
-    };
-  };
-
-  const topData = getPenyebabSaran(results.top.kerusakan);
-  const topCertaintyClass = results.top.percentage >= 75 ? 'sangat-mungkin' : (results.top.percentage >= 50 ? 'cukup-mungkin' : 'mungkin');
+  const top = results.top;
+  const topCertaintyClass = top.percentage >= 75 ? 'sangat-mungkin' : (top.percentage >= 50 ? 'cukup-mungkin' : 'mungkin');
 
   // Build sharing text summary
-  const shareText = buildShareText(categoryDef.nama, results.top, topData);
+  const shareText = buildShareText(categoryName, top);
 
   container.innerHTML = `
     <div>
@@ -59,24 +47,23 @@ export async function render(container) {
     <div class="hasil-card">
       <div class="hasil-header">
         <div class="hasil-meta">
-          <span class="hasil-label-kategori">${categoryDef.nama}</span>
+          <span class="hasil-label-kategori">${categoryName}</span>
           <span class="certainty-badge ${topCertaintyClass}">
-            <!-- Badge Icon -->
             <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
               <path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"/>
               <polyline points="22 4 12 14.01 9 11.01"/>
             </svg>
-            ${results.top.percentage}% — ${results.top.label}
+            ${top.percentage}% — ${top.label}
           </span>
         </div>
-        <div class="hasil-title">${results.top.kerusakan}</div>
+        <div class="hasil-title">${top.kerusakan}</div>
       </div>
 
       <!-- Symptoms Match/Unmatch -->
       <div class="symptom-comparison">
         <div class="symptom-comparison-title">Analisis Gejala:</div>
         <div class="symptom-comparison-list">
-          ${results.top.gejala_cocok.map(g => `
+          ${top.gejala_cocok.map(g => `
             <div class="symptom-comparison-item match">
               <span class="symptom-icon match">
                 <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
@@ -87,7 +74,7 @@ export async function render(container) {
             </div>
           `).join('')}
 
-          ${results.top.gejala_tidak_cocok.map(g => `
+          ${top.gejala_tidak_cocok.map(g => `
             <div class="symptom-comparison-item unmatch">
               <span class="symptom-icon unmatch">
                 <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
@@ -104,21 +91,19 @@ export async function render(container) {
       <!-- Causes -->
       <div class="penyebab-section">
         <div class="section-title-icon">
-          <!-- Tool Wrench Icon -->
           <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
             <path d="M14.7 6.3a1 1 0 0 0 0 1.4l1.6 1.6a1 1 0 0 0 1.4 0l3.77-3.77a6 6 0 0 1-7.94 7.94l-6.91 6.91a2.12 2.12 0 0 1-3-3l6.91-6.91a6 6 0 0 1 7.94-7.94l-3.76 3.76z"/>
           </svg>
           Kemungkinan Penyebab:
         </div>
         <ul class="penyebab-list">
-          ${topData.penyebab.map(p => `<li>${p}</li>`).join('')}
+          ${top.penyebab.map(p => `<li>${p}</li>`).join('')}
         </ul>
       </div>
 
       <!-- Suggestions / Advice -->
       <div class="saran-section">
         <div class="section-title-icon">
-          <!-- Clipboard/Alert Icon -->
           <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
             <path d="M16 4h2a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2V6a2 2 0 0 1 2-2h2"/>
             <rect x="8" y="2" width="8" height="4" rx="1" ry="1"/>
@@ -126,7 +111,7 @@ export async function render(container) {
           Saran Penanganan:
         </div>
         <div class="saran-list">
-          ${topData.saran.map(s => {
+          ${top.saran.map(s => {
             const urgencyClass = `level-${s.level}`;
             let levelLabel = "Bisa Dipantau";
             let levelIcon = `<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg>`;
@@ -151,14 +136,6 @@ export async function render(container) {
           }).join('')}
         </div>
       </div>
-
-      <!-- Reviewed Flag Alert -->
-      ${!topData.reviewed ? `
-        <div style="font-size: 11px; color: var(--color-text-muted); border-top: 1px solid var(--color-border); padding-top: 12px; display: flex; gap: 6px; align-items: center;">
-          <svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><line x1="12" y1="16" x2="12" y2="12"/><line x1="12" y1="8" x2="12.01" y2="8"/></svg>
-          <span>Catatan: Konten penyebab &amp; saran di atas adalah rekomendasi otomatis berbasis aturan dan belum ditinjau penuh oleh ahli otomotif.</span>
-        </div>
-      ` : ''}
     </div>
 
     <!-- Alternatives / Accordion -->
@@ -167,7 +144,6 @@ export async function render(container) {
         <div class="alternatif-title">Kemungkinan Lain (${results.alternatif.length}):</div>
         <div class="accordion-container">
           ${results.alternatif.map((alt, index) => {
-            const altData = getPenyebabSaran(alt.kerusakan);
             return `
               <div class="accordion-item" data-index="${index}">
                 <div class="accordion-header">
@@ -201,13 +177,13 @@ export async function render(container) {
                   
                   <div class="symptom-comparison-title" style="font-size: 12px; margin-bottom: 4px;">Penyebab:</div>
                   <ul class="penyebab-list" style="margin-bottom: 12px;">
-                    ${altData.penyebab.map(p => `<li style="font-size: 12px;">${p}</li>`).join('')}
+                    ${alt.penyebab.map(p => `<li style="font-size: 12px;">${p}</li>`).join('')}
                   </ul>
 
                   <div class="symptom-comparison-title" style="font-size: 12px; margin-bottom: 4px;">Saran Pertama:</div>
                   <div class="saran-list">
-                    <div class="saran-item level-${altData.saran[0]?.level || 'bisa_dipantau'}" style="padding: 8px;">
-                      <span class="saran-text" style="font-size: 12px;">${altData.saran[0]?.teks || 'Bawa ke bengkel terdekat.'}</span>
+                    <div class="saran-item level-${alt.saran[0]?.level || 'bisa_dipantau'}" style="padding: 8px;">
+                      <span class="saran-text" style="font-size: 12px;">${alt.saran[0]?.teks || 'Bawa ke bengkel terdekat.'}</span>
                     </div>
                   </div>
                 </div>
@@ -224,7 +200,6 @@ export async function render(container) {
       <div class="share-copy-area">
         <textarea class="share-textarea" readonly id="share-text-area">${shareText}</textarea>
         <button class="btn btn-primary btn-share-copy" id="btn-copy">
-          <!-- Copy Icon -->
           <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
             <rect x="9" y="9" width="13" height="13" rx="2" ry="2"/>
             <path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"/>
@@ -240,7 +215,6 @@ export async function render(container) {
     <!-- Actions -->
     <div class="gejala-actions">
       <button type="button" class="btn btn-secondary" id="btn-edit-gejala">
-        <!-- Edit Icon -->
         <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
           <path d="M11 4H4a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2v-7"/>
           <path d="M18.5 2.5a2.121 2.121 0 1 1 3 3L12 15l-4 1 1-4 9.5-9.5z"/>
@@ -249,7 +223,6 @@ export async function render(container) {
       </button>
       
       <button type="button" class="btn btn-primary" id="btn-reset">
-        <!-- Refresh Icon -->
         <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
           <path d="M21.5 2v6h-6M21.34 15.57a10 10 0 1 1-.57-8.38l5.67-5.67"/>
         </svg>
@@ -264,11 +237,7 @@ export async function render(container) {
     const header = item.querySelector('.accordion-header');
     header.addEventListener('click', () => {
       const isOpen = item.classList.contains('open');
-      
-      // Close other accordions
       accordionItems.forEach(i => i.classList.remove('open'));
-      
-      // Toggle current accordion
       if (!isOpen) {
         item.classList.add('open');
       }
@@ -282,26 +251,19 @@ export async function render(container) {
   
   btnCopy.addEventListener('click', () => {
     copyArea.select();
-    copyArea.setSelectionRange(0, 99999); // For mobile devices
     try {
       navigator.clipboard.writeText(copyArea.value);
       copyToast.style.display = 'block';
-      setTimeout(() => {
-        copyToast.style.display = 'none';
-      }, 2500);
+      setTimeout(() => { copyToast.style.display = 'none'; }, 2500);
     } catch (err) {
-      // Fallback if Clipboard API fails
       document.execCommand('copy');
       copyToast.style.display = 'block';
-      setTimeout(() => {
-        copyToast.style.display = 'none';
-      }, 2500);
+      setTimeout(() => { copyToast.style.display = 'none'; }, 2500);
     }
   });
 
   // Action listeners
   container.querySelector('#btn-edit-gejala').addEventListener('click', () => {
-    // Keep category and keluhan, clear checked symptoms in state, then reload symptom view
     resetGejala();
     navigateTo('#/pilih-gejala');
   });
@@ -311,25 +273,18 @@ export async function render(container) {
   });
 }
 
-/**
- * Renders the state of "No Match Found" (≥ 30%).
- * @param {HTMLElement} container - Container to render into
- * @param {Object} categoryDef - Category definition
- */
-function renderEmptyState(container, categoryDef) {
+function renderEmptyState(container, categoryName) {
   container.innerHTML = `
     <div class="empty-state-container">
       <div class="empty-state-icon">
-        <!-- Shield Alert / Info Icon -->
         <svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
           <path d="M10.29 3.86L1.82 18a2 2 0 0 0 1.71 3h16.94a2 2 0 0 0 1.71-3L13.71 3.86a2 2 0 0 0-3.42 0z"/>
-          <line x1="12" y1="9" x2="12" y2="13"/>
-          <line x1="12" y1="17" x2="12.01" y2="17"/>
+          <line x1="12" y1="9" x2="12" y2="13"/><line x1="12" y1="17" x2="12.01" y2="17"/>
         </svg>
       </div>
       <div class="empty-state-title">Tidak Ada Kecocokan Signifikan</div>
       <div class="empty-state-desc">
-        Kombinasi gejala yang Anda pilih tidak cocok dengan pola kerusakan yang ada di sistem kami (kurang dari batas minimal 30%).
+        Kombinasi gejala yang Anda pilih tidak cocok dengan pola kerusakan pada sistem <strong>${categoryName}</strong> kami (kurang dari batas minimal 30%).
       </div>
 
       <div class="empty-state-saran-box">
@@ -344,7 +299,6 @@ function renderEmptyState(container, categoryDef) {
 
     <div class="gejala-actions">
       <button type="button" class="btn btn-secondary" id="btn-empty-edit">
-        <!-- Edit Icon -->
         <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
           <path d="M11 4H4a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2v-7"/>
           <path d="M18.5 2.5a2.121 2.121 0 1 1 3 3L12 15l-4 1 1-4 9.5-9.5z"/>
@@ -353,7 +307,6 @@ function renderEmptyState(container, categoryDef) {
       </button>
       
       <button type="button" class="btn btn-primary" id="btn-empty-reset">
-        <!-- Refresh Icon -->
         <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
           <path d="M21.5 2v6h-6M21.34 15.57a10 10 0 1 1-.57-8.38l5.67-5.67"/>
         </svg>
@@ -372,23 +325,16 @@ function renderEmptyState(container, categoryDef) {
   });
 }
 
-/**
- * Compiles a formatted text report of the diagnostic findings.
- * @param {string} categoryName - Selected system category
- * @param {Object} topRule - The ranked #1 matching rule
- * @param {Object} data - Causes and advice from database
- * @returns {string} Compiled plain-text report
- */
-function buildShareText(categoryName, topRule, data) {
-  const matchingSymptomsText = topRule.gejala_cocok
+function buildShareText(categoryName, top) {
+  const matchingSymptomsText = top.gejala_cocok
     .map(g => `- ${g.name}`)
     .join('\n');
 
-  const causesText = data.penyebab
+  const causesText = top.penyebab
     .map((p, idx) => `${idx + 1}. ${p}`)
     .join('\n');
 
-  const adviceText = data.saran
+  const adviceText = top.saran
     .map((s, idx) => {
       let lvl = "Bisa dipantau";
       if (s.level === 'segera_diperiksa') lvl = "Segera periksa";
@@ -399,8 +345,8 @@ function buildShareText(categoryName, topRule, data) {
 
   return `--- HASIL DIAGNOSA MATICCARE ---
 Sistem: ${categoryName}
-Kerusakan Terdeteksi: ${topRule.kerusakan}
-Tingkat Kecocokan: ${topRule.percentage}% (${topRule.label})
+Kerusakan Terdeteksi: ${top.kerusakan}
+Tingkat Kecocokan: ${top.percentage}% (${top.label})
 
 Gejala yang Dialami:
 ${matchingSymptomsText}

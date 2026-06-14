@@ -1,5 +1,6 @@
 import { updateState, getState } from '../lib/state.js';
 import { navigateTo } from '../router.js';
+import { apiClient } from '../api/client.js';
 
 // SVG Helper for categories
 export function getCategoryIconSvg(iconName) {
@@ -22,8 +23,6 @@ export function getCategoryIconSvg(iconName) {
  * @param {HTMLElement} container - The element to render the view into
  */
 export async function render(container) {
-  const response = await fetch('/data/kategori_sistem.json');
-  const categories = await response.json();
   const state = getState();
 
   container.innerHTML = `
@@ -31,43 +30,64 @@ export async function render(container) {
       <h1>Pilih Sistem / Komponen</h1>
       <p class="subtitle">Pilih bagian sepeda motor matic Anda yang dicurigai bermasalah atau mengeluarkan gejala tidak wajar.</p>
     </div>
-
-    <div class="category-grid" id="category-list">
-      ${categories.map(cat => `
-        <button class="category-card ${state.selectedCategoryId === cat.id ? 'active' : ''}" data-id="${cat.id}">
-          <div class="category-icon-wrapper">
-            ${getCategoryIconSvg(cat.icon)}
-          </div>
-          <div class="category-info-wrapper">
-            <div class="category-title">${cat.nama}</div>
-            <div class="category-desc">${cat.deskripsi}</div>
-          </div>
-          <div class="category-arrow">
-            <!-- Chevron Right Icon -->
-            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-              <polyline points="9 18 15 12 9 6"/>
-            </svg>
-          </div>
-        </button>
-      `).join('')}
+    <div id="category-container" class="loading-state">
+      <p>Memuat kategori sistem...</p>
     </div>
   `;
 
-  // Attach event listeners
-  const cards = container.querySelectorAll('.category-card');
-  cards.forEach(card => {
-    card.addEventListener('click', () => {
-      const catId = card.getAttribute('data-id');
-      
-      // Update state, reset keluhan, gejala, and results since category changed
-      updateState({
-        selectedCategoryId: catId,
-        selectedKeluhanId: null,
-        selectedGejalaCodes: [],
-        diagnosticResults: null
-      });
+  try {
+    const categories = await apiClient.getKategori();
+    const listContainer = container.querySelector('#category-container');
+    listContainer.classList.remove('loading-state');
+    
+    listContainer.innerHTML = `
+      <div class="category-grid" id="category-list">
+        ${categories.map(cat => `
+          <button class="category-card ${state.selectedCategoryId === cat.id ? 'active' : ''}" data-id="${cat.id}">
+            <div class="category-icon-wrapper">
+              ${getCategoryIconSvg(cat.icon)}
+            </div>
+            <div class="category-info-wrapper">
+              <div class="category-title">${cat.nama}</div>
+              <div class="category-desc">${cat.deskripsi}</div>
+            </div>
+            <div class="category-arrow">
+              <!-- Chevron Right Icon -->
+              <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <polyline points="9 18 15 12 9 6"/>
+              </svg>
+            </div>
+          </button>
+        `).join('')}
+      </div>
+    `;
 
-      navigateTo('#/pilih-keluhan');
+    // Attach event listeners
+    const cards = listContainer.querySelectorAll('.category-card');
+    cards.forEach(card => {
+      card.addEventListener('click', () => {
+        const catId = card.getAttribute('data-id');
+        
+        // Update state, reset keluhan, gejala, and results since category changed
+        updateState({
+          selectedCategoryId: catId,
+          selectedKeluhanId: null,
+          selectedGejalaCodes: [],
+          diagnosticResults: null
+        });
+
+        navigateTo('#/pilih-keluhan');
+      });
     });
-  });
+
+  } catch (error) {
+    const listContainer = container.querySelector('#category-container');
+    listContainer.classList.remove('loading-state');
+    listContainer.innerHTML = `
+      <div class="error-state">
+        <p>${error.message}</p>
+        <button class="btn btn-primary" onclick="window.location.reload()">Coba Lagi</button>
+      </div>
+    `;
+  }
 }

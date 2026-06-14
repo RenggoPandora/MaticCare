@@ -1,150 +1,42 @@
-MaticCare
+# MaticCare — Sistem Pakar Diagnosa Kerusakan Motor Matic
 
-MaticCare adalah aplikasi web sistem pakar untuk membantu pengguna awam mendiagnosis potensi kerusakan motor matic. Sistem ini menggunakan pendekatan rule-based forward chaining (IF–THEN) dan berjalan sepenuhnya di sisi klien (client-side), tanpa backend server maupun database.
+MaticCare adalah aplikasi sistem pakar berbasis web untuk mendiagnosa kerusakan pada sepeda motor matic menggunakan algoritma **Forward Chaining**.
 
-Aplikasi dirancang sebagai decision support system, bukan pengganti diagnosis mekanik profesional.
+Proyek ini telah direfactor menjadi arsitektur **Client-Server (Frontend/Backend)**.
 
-🎯 Tujuan Aplikasi
-Membantu pengguna awam mengidentifikasi kemungkinan kerusakan motor matic berdasarkan gejala
-Menyajikan hasil diagnosis dalam Bahasa Indonesia yang komunikatif
-Menyediakan rekomendasi saran penanganan awal yang aman
-Menjadi media pembelajaran implementasi sistem pakar berbasis rule
-🧠 Metodologi Sistem Pakar
-Pendekatan: Rule-Based Expert System
-Metode Inferensi: Forward Chaining
-Model Aturan: IF (gejala) THEN (kerusakan)
-Threshold Kecocokan: ≥ 30%
-Output:
-Daftar kemungkinan kerusakan
-Persentase kecocokan
-Penyebab dan saran penanganan
+## Struktur Proyek
 
-Seluruh proses inferensi bersifat deterministik dan dijalankan langsung di browser.
+- `/backend`: Node.js + Express API. Menyimpan basis aturan (rule base) dan menjalankan logika diagnosa.
+- `/frontend`: Vanilla JS thin client. Menampilkan antarmuka pengguna dan mengambil data dari backend.
 
-🛠️ Tech Stack & Dependencies
-Frontend:
-HTML5
-CSS3 (Custom Properties)
-Vanilla JavaScript (ES Modules)
-Bundler / Dev Server (Opsional): Vite
-State Management: sessionStorage
-Desain: Mobile-first responsive (360px–430px)
-Arsitektur: Static Web Application
+## Cara Menjalankan (Development)
 
-📁 Struktur Proyek
-matic-care/
-├── index.html                  # Scaffold HTML utama & indikator progres
-├── package.json                # Konfigurasi skrip & dependensi
-├── PRD.md                      # Product Requirement Document
-├── README.md                   # Dokumentasi proyek
-├── data/                       # Basis data statis (JSON)
-│   ├── gejala_master.json      # 697 gejala unik (final)
-│   ├── rules.json              # 310 aturan kerusakan (final)
-│   ├── kategori_sistem.json    # 9 kategori sistem/komponen
-│   ├── keluhan_utama.json      # [GENERATED] 54 keluhan jangkar
-│   └── penyebab_saran.json     # [GENERATED] 290 penyebab & saran
-├── scripts/                    # Skrip pre-processing data
-│   ├── build_keluhan_utama.js
-│   └── build_penyebab_saran.js
-└── src/                        # Source code aplikasi
-    ├── main.js                 # Entry point (bootstrapping)
-    ├── router.js               # Router berbasis hash (#/)
-    ├── lib/
-    │   ├── diagnose.js         # Logika forward chaining & scoring
-    │   ├── diagnose.test.js    # Unit test algoritma diagnosa
-    │   └── state.js            # Manajemen state sessionStorage
-    ├── styles/
-    │   └── main.css            # Tema UI OBD Dashboard Scanner
-    └── views/
-        ├── beranda.js
-        ├── pilih-sistem.js
-        ├── pilih-keluhan.js
-        ├── pilih-gejala.js
-        ├── proses.js
-        └── hasil-diagnosa.js
-🚀 Cara Menjalankan Aplikasi
-Opsi A — Vite Dev Server (Direkomendasikan)
-Pastikan Node.js telah terinstal
+Anda perlu menjalankan kedua layanan secara bersamaan.
 
-Instal dependensi:
-
+### 1. Jalankan Backend
+```bash
+cd backend
 npm install
-
-Jalankan server pengembangan:
-
 npm run dev
+```
+Server akan berjalan di `http://localhost:3000`.
 
-Akses melalui browser:
+### 2. Jalankan Frontend
+```bash
+cd frontend
+npm install
+npm run dev
+```
+Aplikasi akan berjalan di `http://localhost:5173` (default Vite).
 
-http://localhost:5173
-Opsi B — Static Server
+## Kontrak API
+Dokumentasi endpoint tersedia di [backend/README.md](./backend/README.md).
 
-Aplikasi dapat dijalankan pada server statis apa pun:
+## Algoritma Diagnosa
+Aplikasi menggunakan metode matching score sederhana:
+- Persentase kecocokan = (jumlah gejala cocok / total gejala pada pola kerusakan) * 100%.
+- Minimal kecocokan 30% untuk ditampilkan.
+- Diurutkan berdasarkan persentase tertinggi.
 
-Python:
-
-python -m http.server 8000
-
-Node:
-
-npx serve
-VS Code:
-Klik kanan index.html
-Pilih Open with Live Server
-🧪 Menjalankan Unit Test
-
-Unit test memverifikasi:
-
-Logika forward chaining
-Perhitungan persentase kecocokan
-Penyaringan threshold 30%
-Penentuan ranking hasil diagnosis
-
-Jalankan dengan:
-
-npm run test
-⚙️ Pre-processing Data
-
-Beberapa data dihasilkan otomatis melalui skrip Node.js.
-
-1. Kompilasi Keluhan Utama
-node scripts/build_keluhan_utama.js
-
-Fungsi:
-
-Memindai rule base
-Menentukan gejala jangkar (anchor symptom)
-Mengelompokkan berdasarkan kategori
-Menerjemahkan ke bahasa awam
-2. Kompilasi Penyebab & Saran
-node scripts/build_penyebab_saran.js
-
-Fungsi:
-
-Memetakan 290 jenis kerusakan
-Menentukan tingkat urgensi
-Menandai kasus kritis sebagai segera_bengkel
-⚠️ Catatan Penting
-
-File data/penyebab_saran.json bersifat draft otomatis dan seluruh entri memiliki atribut:
-
-"reviewed": false
-
-Konten wajib ditinjau oleh ahli otomotif atau mentor sebelum digunakan pada skenario dunia nyata.
-
-✅ Hasil Acceptance Testing
-
-Berdasarkan pengujian internal terhadap PRD:
-
-Alur lengkap tanpa error — Terpenuhi
-Rule 100% cocok berada di peringkat teratas — Terpenuhi
-Threshold 30% & fallback state aman — Terpenuhi
-Bahasa Indonesia natural & kode internal tersembunyi — Terpenuhi
-Disclaimer tampil konsisten — Terpenuhi
-Berjalan penuh di static server — Terpenuhi
-Mobile-first tanpa scroll horizontal — Terpenuhi
-⚠️ Disclaimer
-
-Hasil diagnosis bersifat informatif dan edukatif.
-Aplikasi ini bukan pengganti pemeriksaan mekanik profesional.
-Segera konsultasikan ke bengkel resmi jika ditemukan indikasi kerusakan serius.
+## Disclaimer
+Hasil diagnosa bersifat indikasi awal. Harap periksa ke bengkel terdekat demi keselamatan berkendara.
